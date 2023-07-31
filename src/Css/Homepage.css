@@ -1,3 +1,45 @@
-.homewrapper{
-background-color: #4c0082;
-min-height: 100vh;}
+/* Homepage.css */
+.homewrapper {
+    background-color: #4c0082;
+    min-height: 100vh;
+    padding-top: 50px;
+  }
+  
+  .typewriter {
+    font-size: 24px;
+    color: #fff;
+    text-align: left; /* Align the typewriter to the top left */
+    margin-bottom: 20px;
+    margin-left: 5%;
+  }
+  
+  .greeting {
+    font-weight: bold;
+  }
+  
+  .content-container {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  
+  .typewriter-container {
+    flex: 1; /* Allow the typewriter and portrait to share equal space */
+    margin-right: 20px; /* Add some space between typewriter and portrait */
+  }
+  
+  .portrait {
+    text-align: right; /* Align the portrait to the top right */
+    margin-top:  -140px; /* Adjust the top margin to move the portrait up */
+    margin-right: 5%;
+    flex: 1; /* Allow the typewriter and portrait to share equal space */
+  }
+  
+  .portrait img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  }
+  
