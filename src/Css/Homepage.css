@@ -8,7 +8,7 @@
   .typewriter {
     font-size: 24px;
     color: #fff;
-    text-align: left; /* Align the typewriter to the top left */
+    text-align: left; 
     margin-bottom: 20px;
     margin-left: 5%;
   }
@@ -18,22 +18,21 @@
   }
   
   .content-container {
-    display: flex;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    padding: 20px;
+    display: grid;
+    grid-template-rows: auto auto; /* Two rows with automatic height */
+    grid-template-columns: auto auto; /* Two columns with automatic width */
+    justify-content: space-between; /* Align content on the outermost horizontal sides */
+    align-content: space-between;
+
   }
   
   .typewriter-container {
-    flex: 1; /* Allow the typewriter and portrait to share equal space */
-    margin-right: 20px; /* Add some space between typewriter and portrait */
+    margin-right: 20px;
   }
   
   .portrait {
-    text-align: right; /* Align the portrait to the top right */
-    margin-top:  -140px; /* Adjust the top margin to move the portrait up */
+    text-align: right; 
     margin-right: 5%;
-    flex: 1; /* Allow the typewriter and portrait to share equal space */
   }
   
   .portrait img {
@@ -43,3 +42,27 @@
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
   }
   
+  .textbox {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    margin-top: 20px;
+    width: 30%;
+    align-self: flex-end;
+  }
+  
+  .textbox p {
+    margin: 0;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  
+  .another-image img {
+    width: 50%; 
+    height: auto; 
+    border-radius: 15px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3); 
+  }
