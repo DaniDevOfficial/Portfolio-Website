@@ -1,9 +1,8 @@
 /* Homepage.css */
 .homewrapper {
-    background-color: #4c0082;
-    min-height: 100vh;
-    padding-top: 50px;
-  }
+  min-height: 100vh;
+  padding-top: 50px;
+}
   
   .typewriter {
     font-size: 24px;
@@ -19,20 +18,22 @@
   
   .content-container {
     display: grid;
-    grid-template-rows: auto auto; /* Two rows with automatic height */
-    grid-template-columns: 50% 50%; /* Two columns with automatic width */
-    justify-content: space-between; /* Align content on the outermost horizontal sides */
+    grid-template-rows: auto auto;
+    grid-template-columns: 50% 50%; 
+    justify-content: space-between; 
     align-content: space-between;
 
   }
   
   .typewriter-container {
     margin-right: 20px;
+    
   }
   
   .portrait {
     text-align: right; 
     margin-right: 5%;
+    
   }
   
   .portrait img {
@@ -50,7 +51,12 @@
     margin-top: 20px;
     width: 40%;
     justify-self: end;
-    margin-right: 3%;  }
+    margin-right: 3%;
+    box-shadow:
+    0px 0px 10px rgba(0, 0, 0, 0.2), 
+    0px 5px 15px rgba(0, 0, 0, 0.3),
+    0px 10px 20px rgba(0, 0, 0, 0.4); 
+    }
   
   .textbox p {
     margin: 0;
@@ -61,8 +67,13 @@
 
   
   .another-image img {
-    width: 50%; 
+    width: 100%; 
     height: auto; 
     border-radius: 15px;
+    margin-left: 2%;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.3); 
+    box-shadow:
+      0px 0px 10px rgba(0, 0, 0, 0.2), 
+      0px 5px 15px rgba(0, 0, 0, 0.3), 
+      0px 10px 20px rgba(0, 0, 0, 0.4); 
   }
