@@ -51,8 +51,6 @@ function Homepage() {
     <p>
     Hey there! My name is David, and I'm a passionate  developer. I have a strong foundation in React and JavaScript and enjoy building beautiful and interactive websites.
     <br /><br />
-    When I'm not coding, you can find me spending time with my furry friends or working on creative side projects. I believe that code has the power to positively impact the world, and I'm always eager to learn and implement new technologies to achieve that goal.
-    <br /><br />
     Feel free to explore my portfolio and get in touch if you'd like to collaborate or discuss exciting projects!
   </p>      </div>     </div>
 

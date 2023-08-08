@@ -20,7 +20,7 @@
   .content-container {
     display: grid;
     grid-template-rows: auto auto; /* Two rows with automatic height */
-    grid-template-columns: auto auto; /* Two columns with automatic width */
+    grid-template-columns: 50% 50%; /* Two columns with automatic width */
     justify-content: space-between; /* Align content on the outermost horizontal sides */
     align-content: space-between;
 
@@ -48,9 +48,9 @@
     border-radius: 8px;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
     margin-top: 20px;
-    width: 30%;
-    align-self: flex-end;
-  }
+    width: 40%;
+    justify-self: end;
+    margin-right: 3%;  }
   
   .textbox p {
     margin: 0;
