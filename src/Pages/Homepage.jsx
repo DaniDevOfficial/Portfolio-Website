@@ -11,6 +11,7 @@ function Homepage() {
   return (
     <div className='homewrapper'>
       <Homemain />
+      <Homecontent />
   </div>
   );
 }
