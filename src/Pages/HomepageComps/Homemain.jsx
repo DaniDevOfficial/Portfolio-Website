@@ -47,7 +47,7 @@ export default function Homemain() {
                 <div className='another-image'>
                     <img src={MainBild} alt='Another one' />
                 </div>
-                <div className='textbox'>
+                <div className='textbox' id='about'>
                     <p>
                         Hey there! My name is David, and I'm a passionate  developer. I have a strong foundation in React and JavaScript and enjoy building beautiful and interactive websites.
                         <br /><br />
