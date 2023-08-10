@@ -11,7 +11,7 @@ const Navbar = () => {
       <div className="logo">David Bischof</div>
       <ul className="nav-links">
         <Link to='/'><li className='navbarli'>Home</li></Link>
-        <Link to='/Projects'><li className='navbarli'>Projects</li></Link>
+        <Link to='/Projekte'><li className='navbarli'>Projects</li></Link>
         <Link to='/Ausbildung'><li className='navbarli'>Ausbildung</li></Link>
         <Link to='/Hobbies'><li className='navbarli'>Hobbies</li></Link>
         <Link to='/Lebenslauf'><li className='navbarli'>Lebenslauf</li></Link>
