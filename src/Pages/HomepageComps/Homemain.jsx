@@ -5,13 +5,16 @@ import MainBild from '../../Images/TempMainBild.png';
 
 // Libraries
 import Typewriter from "typewriter-effect";
+import { useTransition, animated } from 'react-spring';
 
 export default function Homemain() {
 
 
     return (
         <>
+              <div className="svg-bg" />   
             <div className='content-container'>
+                
                 <div className='typewriter'>
                     <span className='greeting'>Hey, my name is David and </span>
                     <Typewriter
