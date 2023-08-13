@@ -1,0 +1,7 @@
+.AboutMeWrapper{
+    min-height: 100vh;
+    padding-top: 50px;
+    background: url(https://firebasestorage.googleapis.com/v0/b/portfolio-dbischof.appspot.com/o/svg%2FAboutMePageBackground.svg?alt=media&token=746a8fe9-5983-4fb2-a1d5-6f29747dd8be
+    ) center top no-repeat;
+    overflow-x: hidden;
+  }

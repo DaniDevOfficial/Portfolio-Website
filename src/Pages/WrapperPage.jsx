@@ -1,5 +1,6 @@
 // Pages and Comps
 import Homepage from './Homepage'
+import Aboutme from './AboutMe'
 import Navbar from '../Components/Navbar'
 
 // Libraries
@@ -14,6 +15,7 @@ export default function WrapperPage () {
       <Navbar />
       <Routes>
         <Route path="/" element={<Homepage />} />
+        <Route path="/AboutMe" element={<Aboutme />} />
       </Routes>
     </div>
   )

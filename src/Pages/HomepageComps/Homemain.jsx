@@ -6,6 +6,7 @@ import MainBild from '../../Images/TempMainBild.png';
 // Libraries
 import Typewriter from "typewriter-effect";
 import { useTransition, animated } from 'react-spring';
+import { Link } from 'react-router-dom'
 
 export default function Homemain() {
 
@@ -51,6 +52,7 @@ export default function Homemain() {
                     <img src={MainBild} alt='Another one' />
                 </div>
                 <div className='textbox' id='about'>
+                <Link to='/AboutMe' className='link'><div className='subtitle'>A little about me</div> </Link>
                     <p>
                         Hey there! My name is David, and I'm a passionate  developer. I have a strong foundation in React and JavaScript and enjoy building beautiful and interactive websites.
                         <br /><br />
