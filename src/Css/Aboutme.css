@@ -1,107 +1,174 @@
 /* Animations */
 
 @keyframes fadeInSlideLeftToRight {
-    from {
-      opacity: 0;
-      transform: translateX(-10%);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-  
-  
-  @keyframes fadeInSlideRightToLeft {
-    from {
-      opacity: 0;
-      transform: translateX(+10%);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
+  from {
+    opacity: 0;
+    transform: translateX(-10%);
   }
 
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
- 
+
+@keyframes fadeInSlideRightToLeft {
+  from {
+    opacity: 0;
+    transform: translateX(+10%);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
 .AboutMeWrapper {
-    min-height: 100vh;
-    padding-top: 50px;
-    background: url(https://firebasestorage.googleapis.com/v0/b/portfolio-dbischof.appspot.com/o/svg%2FAboutMePageBackground.svg?alt=media&token=746a8fe9-5983-4fb2-a1d5-6f29747dd8be
+  min-height: 100vh;
+  padding-top: 50px;
+  background: url(https://firebasestorage.googleapis.com/v0/b/portfolio-dbischof.appspot.com/o/svg%2FAboutMePageBackground.svg?alt=media&token=746a8fe9-5983-4fb2-a1d5-6f29747dd8be
 ) center top no-repeat;
-    overflow-x: hidden;
-    background-size: cover;
+  overflow-x: hidden;
+  background-size: cover;
 
 }
+
 /*General styling*/
 
-.textbox{
-    background: url(https://firebasestorage.googleapis.com/v0/b/portfolio-dbischof.appspot.com/o/svg%2FaboutTextBg.svg?alt=media&token=5176dd3c-addb-4efd-8501-fd1efdcb4d2a) center no-repeat ;
-    background-size: cover;
-    background-color: #302b2b;
+.textbox {
+  background: url(https://firebasestorage.googleapis.com/v0/b/portfolio-dbischof.appspot.com/o/svg%2FaboutTextBg.svg?alt=media&token=5176dd3c-addb-4efd-8501-fd1efdcb4d2a) center no-repeat;
+  background-size: cover;
+  background-color: #302b2b;
 }
 
-.subtitle{
-  color: #ffffff; 
+.subtitle {
+  color: #ffffff;
   font-weight: bold;
   margin-top: 5px;
   font-size: 4vh;
 
 }
+
 /* About Main Page*/
 .AboutContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-@media  (min-width: 874px) {.AboutMainContainer {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  gap: 2% 2%;
-  grid-auto-flow: row;
-  grid-template-areas:
+@media (min-width: 874px) {
+  .AboutMainContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 2% 2%;
+    grid-auto-flow: row;
+    grid-template-areas:
       "davidImage professionalSkills"
       "davidImage PersonalPursuits";
-      max-width: 110vh; 
-      max-height: 100vh; 
+    max-width: 110vh;
+    max-height: 100vh;
 
 
-}
+  }
 
 }
 
 
 
 #davidImage {
-    grid-area: davidImage;
-    animation: fadeInSlideLeftToRight 1.5s ease-in-out;
+  grid-area: davidImage;
+  animation: fadeInSlideLeftToRight 1.5s ease-in-out;
 
 }
 
 #davidImage img {
-    height: 90vh;
-    border-radius: 15px;
-    margin-left: 2%;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
-    box-shadow:
-        0px 0px 10px rgba(0, 0, 0, 0.2),
-        0px 5px 15px rgba(0, 0, 0, 0.3),
-        0px 10px 20px rgba(0, 0, 0, 0.4);
+  height: 90vh;
+  border-radius: 15px;
+  margin-left: 2%;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  box-shadow:
+    0px 0px 10px rgba(0, 0, 0, 0.2),
+    0px 5px 15px rgba(0, 0, 0, 0.3),
+    0px 10px 20px rgba(0, 0, 0, 0.4);
 }
 
 #professionalSkills {
-    grid-area: professionalSkills;
+  grid-area: professionalSkills;
 
-    animation: fadeInSlideRightToLeft 1.5s ease-in-out;
+  animation: fadeInSlideRightToLeft 1.5s ease-in-out;
 }
 
 #PersonalPursuits {
-    grid-area: PersonalPursuits;
-    animation: fadeInSlideRightToLeft 1.5s ease-in-out;
+  grid-area: PersonalPursuits;
+  animation: fadeInSlideRightToLeft 1.5s ease-in-out;
 }
 
 
 /* About Actual Content*/
+
+
+/* Professional Skills*/
+
+.SkillsContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 100px 100px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "Frontend-Skills Tools-Skills Backend-Skills";
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+.Frontend-Skills {
+  grid-area: Frontend-Skills;
+  background: #302b2b;
+
+}
+
+.Tools-Skills {
+  grid-area: Tools-Skills;
+  background: #302b2b;
+
+}
+
+.Backend-Skills {
+  grid-area: Backend-Skills;
+  background: #302b2b;
+
+}
+
+.skills-list {
+  list-style: none;
+  display: flex; 
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.skill {
+  display: flex;
+  flex-basis: calc(33% - 20px);
+  flex-direction: column; 
+  align-items: center;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.icon {
+  width: 20px;
+  height: auto;
+}
+@media (max-width: 768px) {
+  .skill {
+      flex-basis: calc(50% - 20px); /* Distribute two items in a row */
+  }
+}

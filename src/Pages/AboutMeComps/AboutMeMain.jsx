@@ -4,7 +4,7 @@ import DavidImage from '../../Images/davidImage.png'
 import ProfessionalSkills from './ProfessionalSkills';
 import PersonalPursuits from './PersonalPursuits';
 // Libraries and stuff
-import React, { useRef } from 'react';
+import React from 'react';
 import { Link } from 'react-scroll'
 export default function Aboutmemain() {
 
@@ -16,7 +16,7 @@ export default function Aboutmemain() {
                         <img src={DavidImage} alt='DavidImage' />
                     </div>
                     <div id="professionalSkills" class="textbox">
-                        <Link className="subtitle" to="ProfRef" spy={true} smooth={true} duration={500} >Professional Skills</Link>
+                        <Link className="subtitle" to="ProfRef" spy={true} smooth={true} duration={1000} >Professional Skills</Link>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. In asperiores praesentium soluta eum quisquam eveniet quidem dignissimos! Aperiam tempore aw
                         </p>
@@ -24,7 +24,7 @@ export default function Aboutmemain() {
 
                     <div id="PersonalPursuits" class="textbox">
                         <h2 className="subtitle" ></h2>
-                        <Link className="subtitle" to="PersRef" spy={true} smooth={true} duration={500} >Personal Pursuits</Link>
+                        <Link className="subtitle" to="PersRef" spy={true} smooth={true} duration={1000} >Personal Pursuits</Link>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce euismod nulla ac libero consectetur, non fringilla massa hendrerit. Curabitur id dignissim
                         </p>
