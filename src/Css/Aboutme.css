@@ -161,14 +161,16 @@
   margin-right: 10px;
   margin-left: 10px;
   margin-bottom: 20px;
+  color: rgb(209, 209, 209);
+
 }
 
 .icon {
-  width: 20px;
-  height: auto;
+  height: 20px;
+  width: auto;
 }
 @media (max-width: 768px) {
   .skill {
-      flex-basis: calc(50% - 20px); /* Distribute two items in a row */
+      flex-basis: calc(50% - 20px); 
   }
 }
