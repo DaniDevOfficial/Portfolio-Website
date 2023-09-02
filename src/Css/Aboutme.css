@@ -30,8 +30,7 @@
 .AboutMeWrapper {
   min-height: 100vh;
   padding-top: 50px;
-  background: url(https://firebasestorage.googleapis.com/v0/b/portfolio-dbischof.appspot.com/o/svg%2FAboutMePageBackground.svg?alt=media&token=746a8fe9-5983-4fb2-a1d5-6f29747dd8be
-) center top no-repeat;
+
   overflow-x: hidden;
   background-size: cover;
 
@@ -45,14 +44,17 @@
   background-color: #302b2b;
 }
 
+
 .subtitle {
   color: #ffffff;
   font-weight: bold;
   margin-top: 5px;
   font-size: 4vh;
-
+  cursor: pointer;
 }
-
+.horizontal-divider{
+  width: 90%;
+}
 /* About Main Page*/
 .AboutContainer {
   display: flex;
@@ -111,40 +113,58 @@
 
 /* About Actual Content*/
 
+.TopicTitle{
+  font-size: 3rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.Quotes{
+  text-align: center;
+  font-size: 1.3rem;
+
+}
+
+.personal-text{
+  text-align: center;
+  font-size: 1.3rem;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
 
 /* Professional Skills*/
+.WrapperAboutProfessional{
+  background-color: #464646;
+  padding-top: 40px;
+}
+.TeamSkills{
+  padding-top: 40px;
+  background-color: #393939;
 
+}
 .SkillsContainer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
-  gap: 100px 100px;
+  gap: 0 0;
   grid-auto-flow: row;
-  grid-template-areas:
-    "Frontend-Skills Tools-Skills Backend-Skills";
     text-align: center;
     margin-left: 100px;
     margin-right: 100px;
-
+    margin-top: 10vh;
 }
 
-.Frontend-Skills {
-  grid-area: Frontend-Skills;
-  background: #302b2b;
 
-}
-
-.Tools-Skills {
-  grid-area: Tools-Skills;
-  background: #302b2b;
-
-}
-
+.Frontend-Skills,
+.Tools-Skills,
 .Backend-Skills {
-  grid-area: Backend-Skills;
-  background: #302b2b;
-
+  border-left: 2px solid #333;
 }
+
 
 .skills-list {
   list-style: none;
@@ -173,4 +193,43 @@
   .skill {
       flex-basis: calc(50% - 20px); 
   }
+}
+
+
+.wave1 {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.wave1 svg {
+  position: relative;
+  display: block;
+  width: calc(142% + 1.3px);
+  height: 112px;
+}
+
+.wave1 .shape-fill {
+  fill: #121212;
+}
+
+.wave2 {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.wave2 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 129px;
+}
+
+.wave2 .shape-fill {
+  fill: #464646;
 }
