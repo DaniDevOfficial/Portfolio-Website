@@ -52,6 +52,11 @@
   font-size: 4vh;
   cursor: pointer;
 }
+
+.SubtitleSkills{
+  font-size: 4vh;
+
+}
 .horizontal-divider{
   width: 90%;
 }

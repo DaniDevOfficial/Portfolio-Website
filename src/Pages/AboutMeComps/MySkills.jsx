@@ -33,7 +33,7 @@ export default function MySkills() {
 
                 <div class="SkillsContainer">
                     <div class="Frontend-Skills">
-                        <div className="Subtitle" >Fronted Skills</div>
+                        <div className="SubtitleSkills" >Fronted Skills</div>
                         <ul className="skills-list">
                             <li className="skill">
                                 <div className="icon"><img src={JavaScriptIcon} className="icon" alt='' /> </div>
@@ -58,7 +58,7 @@ export default function MySkills() {
                         </ul>
                     </div>
                     <div class="Tools-Skills">
-                        <div className="Subtitle">Tools</div>
+                        <div className="SubtitleSkills">Tools</div>
                         <ul className="skills-list">
                             <li className="skill">
                                 <div className="icon"><img src={GitIcon} className="icon" alt='' /></div>
@@ -87,7 +87,7 @@ export default function MySkills() {
                         </ul>
                     </div>
                     <div class="Backend-Skills">
-                        <div className="Subtitle">Backend Skills</div>
+                        <div className="SubtitleSkills">Backend Skills</div>
                         <ul className="skills-list">
                             <li className="skill">
                                 <div className="icon"><img src={NodejsIcon} className="icon" alt='' /></div>
@@ -120,98 +120,98 @@ export default function MySkills() {
                 </div>
 
                 <div className="TeamSkills">
-                <div className="TopicTitle">Team Collaboration</div>
+                    <div className="TopicTitle">Team Collaboration</div>
 
-                <div className="Quotes">
-                    <p>"It takes 20 years to build a reputation and five minutes to ruin it. If you think about that, you'll do things differently."</p>
-                    <p>- Warren Buffett</p>
-                </div>
+                    <div className="Quotes">
+                        <p>"The strength of an army lies in its camaraderie."</p>
+                        <p>- Napoleon Bonaparte</p>
+                    </div>
 
-                <div class="SkillsContainer">
-                    <div class="Frontend-Skills">
-                        <div className="Subtitle" >Communication and Collaboration</div>
-                        <ul className="skills-list">
-                            <li className="skill">
-                                <div className="icon"><img src={JavaScriptIcon} className="icon" alt='' /></div>
-                                JavaScript
-                            </li>
-                            <li className="skill">
-                                <div className="icon"><img src={CssIcon} className="icon" alt='' /></div>
-                                CSS
-                            </li>
-                            <li className="skill">
-                                <div className="icon"><img src={HTMLIcon} className="icon" alt='' /></div>
-                                HTML
-                            </li>
-                            <li className="skill">
-                                <div className="icon"> <img src={ReactIcon} alt='' /></div>
-                                React
-                            </li>
-                            <li className="skill">
-                                <div className="icon"> <img src={ReactIcon} alt='' /></div>
-                                Bootstrap
-                            </li>
-                        </ul>
+                    <div class="SkillsContainer">
+                        <div class="Frontend-Skills">
+                            <div className="SubtitleSkills" >Collaboration</div>
+                            <ul className="skills-list">
+                                <li className="skill">
+                                    <div className="icon"><img src={JavaScriptIcon} className="icon" alt='' /></div>
+                                    Comunication
+                                </li>
+                                <li className="skill">
+                                    <div className="icon"><img src={CssIcon} className="icon" alt='' /></div>
+                                    Problem Solving
+                                </li>
+                                <li className="skill">
+                                    <div className="icon"><img src={HTMLIcon} className="icon" alt='' /></div>
+                                    HTML
+                                </li>
+                                <li className="skill">
+                                    <div className="icon"> <img src={ReactIcon} alt='' /></div>
+                                    React
+                                </li>
+                                <li className="skill">
+                                    <div className="icon"> <img src={ReactIcon} alt='' /></div>
+                                    Bootstrap
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="Tools-Skills">
+                            <div className="SubtitleSkills">Project Management</div>
+                            <ul className="skills-list">
+                                <li className="skill">
+                                    <div className="icon"><img src={JavaScriptIcon} className="icon" alt='' /></div>
+                                    Scum
+                                </li>
+                                <li className="skill">
+                                    <div className="icon"><img src={CssIcon} className="icon" alt='' /></div>
+                                    VsCode
+                                </li>
+                                <li className="skill">
+                                    <div className="icon"><img src={HTMLIcon} className="icon" alt='' /></div>
+                                    Figma
+                                </li>
+                                <li className="skill">
+                                    <div className="icon"><img src={JavaIcon} className="icon" alt='' /></div>
+                                    Photoshop
+                                </li>
+                                <li className="skill">
+                                    <div className="icon"> <img src={ReactIcon} alt='' /></div>
+                                    Firebase
+                                </li>
+                                <li className="skill">
+                                    <div className="icon"> <img src={ReactIcon} alt='' /></div>
+                                    AWS
+                                </li>
+                                <li className="skill">
+                                    <div className="icon"> <img src={ReactIcon} alt='' /></div>
+                                    Agile
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="Backend-Skills">
+                            <div className="SubtitleSkills">Leadership</div>
+                            <ul className="skills-list">
+                                <li className="skill">
+                                    <div className="icon"><img src={JavaIcon} className="icon" alt='' /></div>
+                                    Time Management
+                                </li>
+                                <li className="skill">
+                                    <div className="icon"><img src={JavaIcon} className="icon" alt='' /></div>
+                                    Node
+                                </li>
+                                <li className="skill">
+                                    <div className="icon"><img src={JavaIcon} className="icon" alt='' /></div>
+                                    MySQL
+                                </li>
+                                <li className="skill">
+                                    <div className="icon"><img src={JavaIcon} className="icon" alt='' /></div>
+                                    some random skill
+                                </li>
+                                <li className="skill">
+                                    <div className="icon"><img src={JavaIcon} className="icon" alt='' /></div>
+                                    Express
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="Tools-Skills">
-                        <div className="Subtitle">Problem Solving and Adaptability</div>
-                        <ul className="skills-list">
-                            <li className="skill">
-                                <div className="icon"><img src={JavaScriptIcon} className="icon" alt='' /></div>
-                                Git
-                            </li>
-                            <li className="skill">
-                                <div className="icon"><img src={CssIcon} className="icon" alt='' /></div>
-                                VsCode
-                            </li>
-                            <li className="skill">
-                                <div className="icon"><img src={HTMLIcon} className="icon" alt='' /></div>
-                                Figma
-                            </li>
-                            <li className="skill">
-                                <div className="icon"><img src={JavaIcon} className="icon" alt='' /></div>
-                                Photoshop
-                            </li>
-                            <li className="skill">
-                                <div className="icon"> <img src={ReactIcon} alt='' /></div>
-                                Firebase
-                            </li>
-                            <li className="skill">
-                                <div className="icon"> <img src={ReactIcon} alt='' /></div>
-                                AWS
-                            </li>
-                            <li className="skill">
-                                <div className="icon"> <img src={ReactIcon} alt='' /></div>
-                                Agile
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="Backend-Skills">
-                        <div className="Subtitle">Leadership and Time Management</div>
-                        <ul className="skills-list">
-                            <li className="skill">
-                                <div className="icon"><img src={JavaIcon} className="icon" alt='' /></div>
-                                Express
-                            </li>
-                            <li className="skill">
-                                <div className="icon"><img src={JavaIcon} className="icon" alt='' /></div>
-                                Node
-                            </li>
-                            <li className="skill">
-                                <div className="icon"><img src={JavaIcon} className="icon" alt='' /></div>
-                                MySQL
-                            </li>
-                            <li className="skill">
-                                <div className="icon"><img src={JavaIcon} className="icon" alt='' /></div>
-                                some random skill
-                            </li>
-                            <li className="skill">
-                                <div className="icon"><img src={JavaIcon} className="icon" alt='' /></div>
-                                Express
-                            </li>
-                        </ul>
-                    </div>
-                </div>
                 </div>
             </div>
 
