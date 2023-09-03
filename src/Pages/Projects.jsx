@@ -11,7 +11,7 @@ export function Projects() {
             <div className='MainPage-Project'>
                 <div className="Title">Explore Projects</div>
                 <div className='textbox textboxProjects' id='WelcomeProjects'>
-                    Welcome to my portfolio! Here, you'll discover a selection of my projects from my time at IMS and my personal projects.
+                    Here, you'll discover a selection of my projects from my time at IMS and my personal projects.
 
                     I'm a passionate developer, dedicated to crafting innovative solutions. Explore these projects to get a glimpse of my skills and creativity. For more, check out my <a className="fancyText" href="https://github.com/David21092" target="_blank" rel="noopener noreferrer">GitHub</a> profile.
 
@@ -19,7 +19,7 @@ export function Projects() {
                 </div>
                 <br />
                     <div className='flex-container'>
-                    <div className='textbox textboxProjects'>
+                    <div className='textbox textboxProjects' >
                         <div className="subtitle">Wishlingo</div>
                         Wishlingo is a user-friendly language learning app that allows you to complete sentences in your chosen language by filling in missing words. Learn more by diving deeper below!
                     </div>
@@ -36,7 +36,19 @@ export function Projects() {
                 </div>
 
             </div>
-            wasd
+            <div className="Content">
+                <div className="WishlingoPart">
+
+                </div>
+                <div className="NaturalAquaticsPart">
+
+                </div>
+                <div className='QuotaMatePart'>
+                    
+                </div>
+                
+
+            </div>
         </div>
     );
 }
