@@ -8,6 +8,7 @@ export default function Aboutme (){
 return(
 
     <div className='AboutMeWrapper'>
+        
         <Aboutmemain />
     </div>
 )

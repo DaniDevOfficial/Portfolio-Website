@@ -40,8 +40,8 @@
   }
   #WelcomeProjects{
     width: 60vw;
-    margin-left: 20vw;
-    margin-left: 20vw;
+    margin: 0 auto;
+    margin-top: 5vh;
   }
   @media (max-width: 1200px) {
     .flex-container .textboxProjects{
@@ -49,8 +49,7 @@
     }
     #WelcomeProjects{
       width: 400px; 
-      margin-left: 0;
-      margin-right: 0;
+
     }
   }
   @media (min-width: 2000px) {
@@ -63,4 +62,115 @@
       background-position: 200% center;
     }
   }
-  
+
+
+.WishlingoPart{
+  background-color: #9045A0;
+}
+.NaturalAquaticsPart{
+  background-color: #B27FD7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .WaveWhislingoTop {
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    margin-top: 50px;
+    background-color: #9045A0;
+}
+
+.WaveWhislingoTop svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.WaveWhislingoTop .shape-fill {
+    fill: #121212;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .WaveWhislingoTop svg {
+        width: calc(138% + 1.3px);
+        height: 108px;
+    }
+}
+
+
+
+.WaveNaturalWishlingo {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  background-color: #B27FD7;
+}
+
+.WaveNaturalWishlingo svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+.WaveNaturalWishlingo .shape-fill {
+  fill: #9045A0;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+  .WaveNaturalWishlingo svg {
+      width: calc(197% + 1.3px);
+      height: 108px;
+  }
+}
+
+.custom-shape-divider-top-1693778535 {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1693778535 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+.custom-shape-divider-top-1693778535 .shape-fill {
+  fill: #B27FD7;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+  .custom-shape-divider-top-1693778535 svg {
+      width: calc(197% + 1.3px);
+      height: 257px;
+  }
+}
