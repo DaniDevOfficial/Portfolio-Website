@@ -1,8 +1,8 @@
 // Pages and Comps
 import '../../Css/Aboutme.css'
-import DavidImage from '../../Images/davidImage.png'
 import MySkills from './MySkills';
 import AboutMeMain from './AboutMeMain.jsx';
+import PersonalPursuits from './PersonalPursuits';
 // Libraries and stuff
 import React from 'react';
 import { Link } from 'react-scroll'
@@ -10,7 +10,6 @@ export default function AboutMe() {
 
     return (
         <>
-            <section className='no1'>
                 <AboutMeMain />
                 <br />
                 <div class="wave1">
@@ -18,12 +17,9 @@ export default function AboutMe() {
                         <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
                     </svg>
                 </div>
-            </section>
 
-            <section>
                 <MySkills />
-
-            </section>
+                <PersonalPursuits /> 
         </>
 
     )

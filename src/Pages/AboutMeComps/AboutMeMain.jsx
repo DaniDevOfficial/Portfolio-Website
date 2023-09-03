@@ -1,7 +1,7 @@
 // Pages and Comps
 import '../../Css/Aboutme.css'
 import DavidImage from '../../Images/davidImage.png'
-import MySkills from './MySkills';
+
 // Libraries and stuff
 import React from 'react';
 import { Link } from 'react-scroll'

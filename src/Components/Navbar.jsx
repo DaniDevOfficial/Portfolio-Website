@@ -1,25 +1,34 @@
+
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+
 import '../Css/Navbar.css';
+export default function Navbar() {
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
 
 
-import { Link } from 'react-router-dom'
-import React from 'react';
 
-const Navbar = () => {
-  return (
-    <div className='navbarWrapper'>
-    <nav className="navbar">
-      <div className="logo">David Bischof</div>
-      <ul className="nav-links">
-        <Link to='/'><li className='navbarli'>Home</li></Link>
-        <Link to='/Projekte'><li className='navbarli'>Projects</li></Link>
-        <Link to='/AboutMe'><li className='navbarli'>About Me</li></Link>
-        <Link to='/Galerie'><li className='navbarli'>Galerie</li></Link>
-        <Link to='/Kontakt'><li className='navbarli'>Kontakt</li></Link>
+function handleHamburger() {
+    setIsMenuOpen(!isMenuOpen);
+  }
+    return (
+        <nav className="navbar">
+            <div className="left-section">
+                <div className="home-link "><Link className="link-style" to="/">Home</Link></div>
+            </div>
+            <a href="#" className='toggle-button'
+            onClick={handleHamburger}>
+                <span className='bar' />
+                <span className='bar'/>
+                <span className='bar'/>
 
-      </ul>
-    </nav>
-    </div>
-  );
-};
-
-export default Navbar;
+            </a>
+            <div className={`nav-links ${isMenuOpen ? 'active' : ''}`}>
+            <ul >
+            <Link className="link-style" to="/AboutMe">  <li>AboutMe</li></Link>
+                <li><Link className="link-style" to="/contact">Contact</Link></li>
+            </ul>
+            </div>
+        </nav>
+    );
+}

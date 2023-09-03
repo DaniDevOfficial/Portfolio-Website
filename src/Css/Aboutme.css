@@ -28,8 +28,7 @@
 
 
 .AboutMeWrapper {
-  min-height: 100vh;
-  padding-top: 50px;
+    padding-top: 50px;
 
   overflow-x: hidden;
   background-size: cover;
@@ -153,23 +152,44 @@
 }
 .SkillsContainer {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  gap: 0 0;
-  grid-auto-flow: row;
-    text-align: center;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 10vh;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+
+  text-align: center;
+  margin: auto; 
+  max-width: 800px; 
 }
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .SkillsContainer {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adjust column width for smaller screens */
+    gap: 10px; /* Reduce gap for smaller screens */
+    margin:  auto; /* Adjust margin for smaller screens */
+  }
+}
+
 
 
 .Frontend-Skills,
 .Tools-Skills,
-.Backend-Skills {
+.Backend-Skills,
+.Collaboration-Skills,
+.Project-Management-Skills,
+.Leadership-Skills {
   border-left: 2px solid #333;
 }
 
+@media (max-width: 500px) {
+  .Frontend-Skills,
+  .Tools-Skills,
+  .Backend-Skills,
+  .Collaboration-Skills,
+  .Project-Management-Skills,
+  .Leadership-Skills {
+    border-top: 2px solid #333;
+
+  }
+}
 
 .skills-list {
   list-style: none;
@@ -180,7 +200,7 @@
 
 .skill {
   display: flex;
-  flex-basis: calc(33% - 20px);
+  flex-basis: calc(33% - 30px);
   flex-direction: column; 
   align-items: center;
   margin-right: 10px;
@@ -198,6 +218,7 @@
   .skill {
       flex-basis: calc(50% - 20px); 
   }
+  
 }
 
 
@@ -237,4 +258,23 @@
 
 .wave2 .shape-fill {
   fill: #464646;
+}
+
+.wave3 {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.wave3 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+.wave3 .shape-fill {
+  fill: #393939;
 }
