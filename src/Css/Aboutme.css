@@ -1,7 +1,302 @@
-.AboutMeWrapper{
-    min-height: 100vh;
-    padding-top: 50px;
-    background: url(https://firebasestorage.googleapis.com/v0/b/portfolio-dbischof.appspot.com/o/svg%2FAboutMePageBackground.svg?alt=media&token=746a8fe9-5983-4fb2-a1d5-6f29747dd8be
-    ) center top no-repeat;
-    overflow-x: hidden;
+/* Animations */
+
+@keyframes fadeInSlideLeftToRight {
+  from {
+    opacity: 0;
+    transform: translateX(-10%);
   }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+@keyframes fadeInSlideRightToLeft {
+  from {
+    opacity: 0;
+    transform: translateX(+10%);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+.AboutMeWrapper {
+    padding-top: 50px;
+
+  overflow-x: hidden;
+  background-size: cover;
+
+}
+
+/*General styling*/
+
+.textbox {
+  background: url(https://firebasestorage.googleapis.com/v0/b/portfolio-dbischof.appspot.com/o/svg%2FaboutTextBg.svg?alt=media&token=5176dd3c-addb-4efd-8501-fd1efdcb4d2a) center no-repeat;
+  background-size: cover;
+  background-color: #302b2b;
+}
+
+
+.subtitle {
+  color: #ffffff;
+  font-weight: bold;
+  margin-top: 5px;
+  font-size: 4vh;
+  cursor: pointer;
+}
+
+.SubtitleSkills{
+  font-size: 4vh;
+
+}
+.horizontal-divider{
+  width: 90%;
+}
+/* About Main Page*/
+.AboutContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.AboutMainContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 2% 2%;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "davidImage professionalSkills"
+    "davidImage PersonalPursuits";
+  max-width: 110vh;
+}
+@media (max-width: 874px) {
+  .AboutMainContainer {
+    display: flex;            
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    width: 80vw;
+    max-width: 90vw;
+    gap: 10px;
+  }
+  #davidImage img {
+    max-width: 90vw;
+    border-radius: 15px;
+    
+  }
+}
+
+
+
+#davidImage {
+  grid-area: davidImage;
+  animation: fadeInSlideLeftToRight 1.5s ease-in-out;
+
+}
+
+#davidImage img {
+  height: 90vh;
+  border-radius: 15px;
+  margin-left: 2%;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  box-shadow:
+    0px 0px 10px rgba(0, 0, 0, 0.2),
+    0px 5px 15px rgba(0, 0, 0, 0.3),
+    0px 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+#professionalSkills {
+  grid-area: professionalSkills;
+
+  animation: fadeInSlideRightToLeft 1.5s ease-in-out;
+}
+
+#PersonalPursuits {
+  grid-area: PersonalPursuits;
+  animation: fadeInSlideRightToLeft 1.5s ease-in-out;
+}
+
+
+/* About Actual Content*/
+
+.TopicTitle{
+  font-size: 3rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  text-align: center;
+}
+
+.Quotes{
+  text-align: center;
+  font-size: 1.3rem;
+
+}
+
+.personal-text{
+  text-align: center;
+  font-size: 1.3rem;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+
+/* Professional Skills*/
+.WrapperAboutProfessional{
+  background-color: #464646;
+  padding-top: 40px;
+}
+.TeamSkills{
+  padding-top: 40px;
+  background-color: #393939;
+
+}
+.SkillsContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+
+  text-align: center;
+  margin: auto; 
+  max-width: 800px; 
+}
+
+@media (max-width: 768px) {
+  .SkillsContainer {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    gap: 10px; 
+    margin:  auto;
+  }
+}
+
+
+
+.Frontend-Skills,
+.Tools-Skills,
+.Backend-Skills,
+.Collaboration-Skills,
+.Project-Management-Skills,
+.Leadership-Skills {
+  border-left: 2px solid #333;
+}
+
+@media (max-width: 500px) {
+  .Frontend-Skills,
+  .Tools-Skills,
+  .Backend-Skills,
+  .Collaboration-Skills,
+  .Project-Management-Skills,
+  .Leadership-Skills {
+    border-top: 2px solid #333;
+
+  }
+}
+
+.skills-list {
+  list-style: none;
+  display: flex; 
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.skill {
+  display: flex;
+  flex-basis: calc(33% - 30px);
+  flex-direction: column; 
+  align-items: center;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  color: rgb(209, 209, 209);
+
+}
+
+.icon {
+  height: 20px;
+  width: auto;
+}
+@media (max-width: 768px) {
+  .skill {
+      flex-basis: calc(50% - 20px); 
+  }
+  
+}
+
+
+.wave1 {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.wave1 svg {
+  position: relative;
+  display: block;
+  width: calc(142% + 1.3px);
+  height: 112px;
+}
+
+.wave1 .shape-fill {
+  fill: #121212;
+}
+
+.wave2 {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.wave2 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 129px;
+}
+
+.wave2 .shape-fill {
+  fill: #464646;
+  
+}
+
+.wave3 {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  background-color:#818181;
+}
+
+.wave3 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+.wave3 .shape-fill {
+  fill: #393939;
+}
+
+
+
+/** Personal Pursuits*/
+
+.personalWrapper{
+  background-color: #818181;
+}
+.PersonalContent{
+  margin-top: 150px;
+}

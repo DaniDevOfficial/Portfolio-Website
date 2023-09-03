@@ -2,8 +2,10 @@
 .homewrapper {
   min-height: 100vh;
   padding-top: 50px;
-  background: url(https://firebasestorage.googleapis.com/v0/b/portfolio-dbischof.appspot.com/o/svg%2FHomePageBackground.svg?alt=media&token=4b3d52d1-8784-4b80-b22f-525b607bce0a) left top no-repeat;
   overflow-x: hidden;
+  background-size: cover;
+  overflow: hidden; 
+
 }
 
 .typewriter {
@@ -22,9 +24,7 @@
 .content-container {
   display: grid;
   grid-template-rows: auto auto;
-  grid-template-columns: 50% 50%;
-  justify-content: space-between;
-  align-content: space-between;
+  grid-template-columns: 49% 49%;
 
 }
 
@@ -63,7 +63,7 @@
 }
 #about{
   background: url(https://firebasestorage.googleapis.com/v0/b/portfolio-dbischof.appspot.com/o/svg%2FaboutTextBg.svg?alt=media&token=5176dd3c-addb-4efd-8501-fd1efdcb4d2a) center no-repeat ;
-  background-size: 105%;
+  background-size: cover;
   background-color: #302b2b;
  
   justify-self: end;
@@ -114,7 +114,7 @@
 
 @keyframes fadeInSlideRightToLeft {
   from {
-    opacity: 0;
+    opacity: 0; 
     transform: translateX(+10%);
   }
   to {

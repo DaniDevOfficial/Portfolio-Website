@@ -5,7 +5,6 @@ import MainBild from '../../Images/TempMainBild.png';
 
 // Libraries
 import Typewriter from "typewriter-effect";
-import { useTransition, animated } from 'react-spring';
 import { Link } from 'react-router-dom'
 
 export default function Homemain() {

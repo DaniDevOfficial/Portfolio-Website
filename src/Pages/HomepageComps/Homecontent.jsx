@@ -1,9 +1,7 @@
 // Pages and Comps
 import '../../Css/Homepage.css'
 import ProjektBild from '../../Images/TempProjekte.png'
-import AusbildungBild from '../../Images/TempAusbildung.png'
-import HobbiesBild from '../../Images/TempHobbies.png'
-import LebenslaufBild from '../../Images/TempLebenslauf.png'
+
 import GalerieBild from '../../Images/TempGalerie.png'
 
 

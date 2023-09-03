@@ -1,6 +1,6 @@
 // Pages and Comps
 import '../Css/Aboutme.css'
-import Aboutmemain from './AboutMeComps/AboutMeMain'
+import Aboutmemain from './AboutMeComps/AboutMe'
 // Libraries
 
 export default function Aboutme (){
