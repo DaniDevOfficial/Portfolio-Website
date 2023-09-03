@@ -7,10 +7,17 @@ import React from 'react';
 export default function PersonalPursuits() {
 
     return (
-        <>
-        do tha Personal
+        <div className='personalWrapper'>
+            
 
-        </>
+
+            <div className="PersonalContent">
+                <div className="TopicTitle">Who is David</div>
+                
+                <div>will do later</div>
+            </div>
+                
+        </div>
 
     )
 

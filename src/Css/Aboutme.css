@@ -65,23 +65,32 @@
   justify-content: center;
   align-items: center;
 }
-
-@media (min-width: 874px) {
+.AboutMainContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 2% 2%;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "davidImage professionalSkills"
+    "davidImage PersonalPursuits";
+  max-width: 110vh;
+}
+@media (max-width: 874px) {
   .AboutMainContainer {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 2% 2%;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "davidImage professionalSkills"
-      "davidImage PersonalPursuits";
-    max-width: 110vh;
-    max-height: 100vh;
-
-
+    display: flex;            
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    width: 80vw;
+    max-width: 90vw;
+    gap: 10px;
   }
-
+  #davidImage img {
+    max-width: 90vw;
+    border-radius: 15px;
+    
+  }
 }
 
 
@@ -124,6 +133,7 @@
   justify-content: center;
   margin-top: 2%;
   margin-bottom: 2%;
+  text-align: center;
 }
 
 .Quotes{
@@ -159,12 +169,11 @@
   max-width: 800px; 
 }
 
-/* Media query for smaller screens */
 @media (max-width: 768px) {
   .SkillsContainer {
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adjust column width for smaller screens */
-    gap: 10px; /* Reduce gap for smaller screens */
-    margin:  auto; /* Adjust margin for smaller screens */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    gap: 10px; 
+    margin:  auto;
   }
 }
 
@@ -258,6 +267,7 @@
 
 .wave2 .shape-fill {
   fill: #464646;
+  
 }
 
 .wave3 {
@@ -266,6 +276,7 @@
   width: 100%;
   overflow: hidden;
   line-height: 0;
+  background-color:#818181;
 }
 
 .wave3 svg {
@@ -277,4 +288,15 @@
 
 .wave3 .shape-fill {
   fill: #393939;
+}
+
+
+
+/** Personal Pursuits*/
+
+.personalWrapper{
+  background-color: #818181;
+}
+.PersonalContent{
+  margin-top: 150px;
 }
