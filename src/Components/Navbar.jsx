@@ -25,7 +25,8 @@ function handleHamburger() {
             </a>
             <div className={`nav-links ${isMenuOpen ? 'active' : ''}`}>
             <ul >
-            <Link className="link-style" to="/AboutMe">  <li>AboutMe</li></Link>
+            <Link className="link-style" to="/AboutMe">  <li>About Me</li></Link>
+            <Link className="link-style" to="/Projects">  <li>Projects</li></Link>
                 <li><Link className="link-style" to="/contact">Contact</Link></li>
             </ul>
             </div>

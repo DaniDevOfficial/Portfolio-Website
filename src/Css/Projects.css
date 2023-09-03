@@ -1,0 +1,57 @@
+.Title{
+
+    text-align: center;
+    margin-top: 5vh;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.MainPage-Project{
+    min-height: 90vh;
+}
+.fancyText{
+    transform: scale(1.05);
+    background-image: linear-gradient(to left, #9045A0, #B27FD7, #D4A8FF, #EAC9FF, #EAC9FF, #D4A8FF, #B27FD7, #9045A0);
+    background-size: 200% auto;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 4s linear infinite;
+}
+
+
+
+.textboxProjects {
+    margin-top: 5vh;
+    background: url(https://firebasestorage.googleapis.com/v0/b/portfolio-dbischof.appspot.com/o/svg%2FtextboxBG.svg?alt=media&token=a121e849-7979-45b3-8f74-7edd4abeddcc) center no-repeat ;
+    background-size: cover; 
+  }
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+  .flex-container .textboxProjects {
+    width: 300px; 
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  @media (max-width: 768px) {
+    .flex-container .textboxProjects{
+        width: 400px; 
+    }
+  }
+  @media (min-width: 2000px) {
+    .flex-container .textboxProjects{
+        width: 20vw; 
+    }
+  }
+@keyframes shine {
+    to {
+      background-position: 200% center;
+    }
+  }
+  
