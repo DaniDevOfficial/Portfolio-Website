@@ -70,7 +70,7 @@
   justify-self: end;
   margin-right: 3%;
   margin-top: 20px;
-  width: 40%;
+  width: 300px;
   animation: fadeInSlideRightToLeft 1.5s ease-in-out;
 
 }
@@ -95,7 +95,11 @@
     0px 5px 15px rgba(0, 0, 0, 0.3),
     0px 10px 20px rgba(0, 0, 0, 0.4);
 }
-
+@media (max-width: 100px) {
+.another-image{
+  width: 10%;
+}
+}
 .another-image{
   justify-self: end;
   align-self: end;
@@ -152,7 +156,7 @@
 
 .homeImages img{
 
-  width: 70%;
+  width: 400px;
   height: auto;
   border-radius: 15px;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
@@ -167,7 +171,7 @@
 
 
 #ProjektText{
-  width: 70%;
+  width: 300px;
   align-self: baseline;
 justify-self: center;
 
@@ -192,7 +196,7 @@ justify-self: center;
 
 #HobbiesText{
   align-self:baseline;
-  width: 70%;
+  width: 200px;
   justify-self: center;
 
 }

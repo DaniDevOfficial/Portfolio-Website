@@ -1,6 +1,6 @@
 // Pages and Comps
 import '../Css/Projects.css'
-
+import Wishlingo from '../Images/Wishlingo.png'
 // Libraries
 
 import React from 'react';
@@ -43,7 +43,13 @@ export function Projects() {
             <div className="Content">
 
                 <div className="WishlingoPart">
-                    wasd
+                    <div className="ProjectImage">
+                        <img src={Wishlingo} alt="" />
+                    </div>
+                    <div className="ProjectText textbox textboxProjects">
+                    <div className="subtitle">Wishlingo</div>
+                        This is a Language Learn App where you can Learn any given Language and try to fill in the missing word in a sentence. The App has a backend which means the User can login and create his own tasks and can so learn them. This Project was made for a Coding Contest. You can visit it <a className="fancyText" href="https://wishlingode.web.app/" target="_blank" rel="noopener noreferrer">Here</a> and can also check out the code in the <a className="fancyText" href="https://github.com/David21092/Wishlingo" target="_blank" rel="noopener noreferrer">Git Repository</a>.
+                    </div>
                 </div>
                 <div class="WaveNaturalWishlingo">
                     <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
@@ -51,7 +57,14 @@ export function Projects() {
                     </svg>
                 </div>
                 <div className="NaturalAquaticsPart">
-                    wasd
+                <div className="ProjectImage">
+                        <img src={Wishlingo} alt="" />
+                    </div>
+                    <div className="ProjectText textbox textboxProjects">
+                    <div className="subtitle">Natural Aquatics</div>
+                        This is a Multimedia Page for which the main Focus was using Unique Stylings like Parallax or using Photoshop to create and edit my own images and Display the differences betweet them. This was a Project in the Prog1 Module
+                         You can visit it <a className="fancyText" href="https://backend-multimediapage.web.app/" target="_blank" rel="noopener noreferrer">Here</a> and can also check out the code in the <a className="fancyText" href="https://github.com/David21092/NaturalAquatics" target="_blank" rel="noopener noreferrer">Git Repository</a>.
+                    </div>
                 </div>
                 <div class="custom-shape-divider-top-1693778535">
                     <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
@@ -59,7 +72,14 @@ export function Projects() {
                     </svg>
                 </div>
                 <div className='QuotaMatePart'>
-                    asd
+                <div className="ProjectImage">
+                        <img src={Wishlingo} alt="" />
+                    </div>
+                    <div className="ProjectText textbox textboxProjects">
+                    <div className="subtitle">QuoteMate</div>
+                        This is a Site to calculate the coverage of the insurance in a case of Damages. The "Auftrag" was from the KBW to make a site where the user can calculate the coverage of House Damages. This was a Project in the Prog1 Module.
+                         You can visit it <a className="fancyText" href="https://wishlingode.web.app/" target="_blank" rel="noopener noreferrer">Here</a> and can also check out the code in the <a className="fancyText" href="https://github.com/David21092/Wishlingo" target="_blank" rel="noopener  noreferrer">Git Repository</a>. /**Bilder und Links ändert */
+                    </div>
                 </div>
 
 

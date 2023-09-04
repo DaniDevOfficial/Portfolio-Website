@@ -47,6 +47,7 @@
     .flex-container .textboxProjects{
         width: 400px; 
     }
+
     #WelcomeProjects{
       width: 400px; 
 
@@ -63,7 +64,40 @@
     }
   }
 
+.ProjectText{
+  margin-top: 0vh;
+  width: 400px;
 
+}
+.ProjectImage img{
+  width: 50vw;
+  min-width: 300px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 10% solid #979797;
+
+}
+.ProjectImage img:hover{
+  transform: scale(1.05);
+  min-width: 300px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+
+  border: 10% solid #979797;
+
+}
+.WishlingoPart,
+.NaturalAquaticsPart,
+.QuotaMatePart{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;  
+  margin-top: 0vh;
+  padding-bottom: 3vh;
+  gap: 2% 2%;
+  padding-top: 3vh;
+}
 .WishlingoPart{
   background-color: #9045A0;
 }

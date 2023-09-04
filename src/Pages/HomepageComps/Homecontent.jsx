@@ -15,12 +15,12 @@ export default function Homecontent() {
         <div>
             <div className='homeContent'>
             <div className="textbox" id='ProjektText'>
-            <Link to='/Projekte' className='link'><div className='subtitle'>Discover My different Projects</div> </Link>
+            <Link to='/Projects' className='link'><div className='subtitle'>Discover My different Projects</div> </Link>
                 Step into the realm of my web development journey. From sleek and responsive designs to seamless user experiences, my portfolio is a testament to the websites I've brought to life. Immerse yourself in the world of digital creativity and explore the diverse range of web projects I've crafted.
             </div>
 
             <div className="homeImages" id="ProjektBild">
-            <Link to='/Projekte' className='link'>
+            <Link to='/Projects' className='link'>
                 <img src={ProjektBild} alt='Projekte' />
                 </Link>
             </div> 
