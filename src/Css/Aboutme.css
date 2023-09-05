@@ -297,7 +297,12 @@
 
 .personalWrapper{
   background-color: #818181;
+  padding-bottom: 3vh;
 }
 .PersonalContent{
   margin-top: 150px;
+}
+
+#AboutMeDivider {
+  background-color: #818181;
 }

@@ -1,5 +1,5 @@
 // Pages and Comps
-import WrapperPage from './Pages/WrapperPage';
+import { WrapperPage } from './Pages/WrapperPage';
 // Libraries
 import React from 'react';
 

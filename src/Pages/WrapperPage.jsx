@@ -1,15 +1,19 @@
-// Pages and Comps
-import Homepage from './Homepage'
-import Aboutme from './AboutMe'
-import Navbar from '../Components/Navbar'
-import { Projects } from './Projects'
-// Libraries
-import React from 'react'
-import { Route, Routes } from 'react-router-dom'
+import React, { useEffect } from 'react';
+import { Route, Routes, useLocation } from 'react-router-dom';
 
+import Homepage from './Homepage';
+import Aboutme from './AboutMe';
+import Navbar from '../Components/Navbar';
+import { Projects } from './Projects'; 
+import { Footer } from '../Components/Footer';
 
+export function WrapperPage() {
+  const location = useLocation();
 
-export default function WrapperPage () {
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, [location.pathname]);
+
   return (
     <div>
       <Navbar />
@@ -18,6 +22,7 @@ export default function WrapperPage () {
         <Route path="/AboutMe" element={<Aboutme />} />
         <Route path="/Projects" element={<Projects />} />
       </Routes>
+      <Footer />
     </div>
-  )
+  );
 }
