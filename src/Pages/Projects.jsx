@@ -3,6 +3,7 @@ import '../Css/Projects.css'
 import Wishlingo from '../Images/Wishlingo.png'
 import NatuaralAquatics from '../Images/NatuaralAquatics.png'
 import QuoteMate from '../Images/QuoteMate.png'
+import { Link } from 'react-scroll'
 // Libraries
 
 import React from 'react';
@@ -22,17 +23,15 @@ export function Projects() {
                 <br />
                 <div className='flex-container'>
                     <div className='textbox textboxProjects' >
-                        <div className="subtitle">Wishlingo</div>
+                    <Link className="subtitle" to="WishlingoPart" spy={true} smooth={true} duration={1000} ><div className="subtitle pointer">Wishlingo</div> </Link>
                         Wishlingo is a user-friendly language learning app that allows you to complete sentences in your chosen language by filling in missing words. Learn more by diving deeper below!
                     </div>
 
                     <div className='textbox textboxProjects'>
-                        <div className="subtitle">Natural Aquatics</div>
-                        Natural Aquatics is your online destination for premium water subscriptions, presented in a multimedia format with engaging animations and unique styling. Explore more about it below!
+                    <Link className="subtitle pointer" to="NaturalAquaticsPart" spy={true} smooth={true} duration={1000} ><div className="subtitle">Natural Aquactics</div> </Link>                        Natural Aquatics is your online destination for premium water subscriptions, presented in a multimedia format with engaging animations and unique styling. Explore more about it below!
                     </div>
                     <div className='textbox textboxProjects'>
-                        <div className="subtitle">QuoteMate</div>
-                        QuoteMate simplifies insurance calculations. Quickly determine your damage costs and insurance coverage, making informed decisions effortlessly. Discover further details down below!
+                    <Link className="subtitle pointer" to="QuotaMatePart" spy={true} smooth={true} duration={1000} ><div className="subtitle">Quotemate</div> </Link>                        QuoteMate simplifies insurance calculations. Quickly determine your damage costs and insurance coverage, making informed decisions effortlessly. Discover further details down below!
 
                     </div>
                 </div>
@@ -97,7 +96,9 @@ export function Projects() {
 
             </div>
             <div className="newProjects">
+                <div className="subtitleProjects CurrentlyWorkingOn">Currently Working on</div>
                 <div className='flex-container CurrentlyWorkingOn' >
+
                     <div className='textbox textboxProjects' >
                         <div className="subtitle">Chat App</div>
                         A Simple chat App with which the user can comunicate with others and can maybe VideoCall. Its a Project for the Module Prog2. Git currently not available
@@ -116,23 +117,27 @@ export function Projects() {
                         <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
                     </svg>
                 </div>
-                <div className='flex-container FutureProjects' >
-                    <div className='textbox textboxProjects' >
-                        <div className="subtitle">Chat App</div>
-                        A Simple chat App with which the user can comunicate with others and can maybe VideoCall. Its a Project for the Module Prog2. Git currently not available
+                <div className="newProjects">
+                    <div className="subtitleProjects FutureProjects">Future Projects</div>
+                    <div className='flex-container FutureProjects' >
+                        <div className='textbox textboxProjects' >
 
+                            <div className="subtitle">Onlie shop</div>
+                           I would like to create a personal online shop to learn how the finace part of coing works and how the validation and check is handeled. 
+
+                        </div>
+
+                        <div className='textbox textboxProjects'>
+                            <div className="subtitle">Something New</div>
+                            Maybe you have an idea for a new Project or even a Job oportunity for something completley new. Contact me <a className="fancyText" href= "mailto:bischof.david.db@gmail.com" target="_blank" rel="noopener noreferrer">Here</a>.
+                        </div>
                     </div>
-
-                    <div className='textbox textboxProjects'>
-                        <div className="subtitle">Ukraine News Site</div>
-                        A News Site that has Multimedia features and is Interactive. It should display news About the War and infom people about the Backgrounds of the War Its a Project for the Subject PaW (Group Project). Git currently not available
+                    <div class="EndDivider">
+                        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                            <path d="M0,0V7.23C0,65.52,268.63,112.77,600,112.77S1200,65.52,1200,7.23V0Z" class="shape-fill"></path>
+                        </svg>
                     </div>
                 </div>
-                <div class="EndDivider">
-    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-        <path d="M0,0V7.23C0,65.52,268.63,112.77,600,112.77S1200,65.52,1200,7.23V0Z" class="shape-fill"></path>
-    </svg>
-</div>
             </div>
         </div>
     );

@@ -53,7 +53,6 @@
   background: url(https://firebasestorage.googleapis.com/v0/b/portfolio-dbischof.appspot.com/o/svg%2FtextboxBG.svg?alt=media&token=a121e849-7979-45b3-8f74-7edd4abeddcc) center no-repeat ;
   background-size: 105%; 
   font-weight: 500;
-  background-color: #302b2b;
 
   color: rgb(218, 218, 218);
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
@@ -65,8 +64,7 @@
 #about{
   background: url(https://firebasestorage.googleapis.com/v0/b/portfolio-dbischof.appspot.com/o/svg%2FaboutTextBg.svg?alt=media&token=5176dd3c-addb-4efd-8501-fd1efdcb4d2a) center no-repeat ;
   background-size: cover;
-  background-color: #302b2b;
- 
+  
   justify-self: end;
   margin-right: 3%;
   margin-top: 20px;
@@ -134,12 +132,13 @@
 /* Homepage Content */
 
 .homeContent {
+  padding-top: 3vh;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto auto ;
   gap: 1%;
   grid-row-gap: 3vh;
-  background-color: #302b2b;
+  background-color: #490c9f;
 
 
 }
@@ -172,6 +171,7 @@
 
 #ProjektText{
   width: 300px;
+  background-color: transparent;
   align-self: baseline;
 justify-self: center;
 
@@ -187,41 +187,12 @@ justify-self: center;
 
 }
 
-#AusbildungText{
-  align-self:baseline;
-  width: 70%;
-  justify-self: center;
-
-}
-
-#HobbiesText{
-  align-self:baseline;
-  width: 200px;
-  justify-self: center;
-
-}
-
-#HobbiesBild{
-  justify-self: center;
-
-}
-
-#LebenslaufBild{
-  justify-self: center;
-
-}
-
-#LebenslaufText{
-  align-self:baseline;
-  width: 70%;
-  justify-self: center;
-
-}
 
 #GalerieText{
   align-self:baseline;
   width: 70%;
   justify-self: center;
+  background-color: transparent;
 
 }
 
@@ -237,6 +208,6 @@ justify-self: center;
   fill: #121212;
 }
 .waveHome{
-  background-color: #302b2b;
+  background-color: #490c9f;
 
 }

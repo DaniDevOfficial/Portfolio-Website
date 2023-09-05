@@ -110,6 +110,8 @@
 .CurrentlyWorkingOn{
   background-color: #34148e;
   padding-bottom: 10vh;
+    padding-bottom: 7vh;
+
 
 }
 
@@ -120,7 +122,11 @@
 
 
 
-
+.subtitleProjects{
+  font-size: 40px;
+  text-align: center;
+  color: white;
+}
 
 
 

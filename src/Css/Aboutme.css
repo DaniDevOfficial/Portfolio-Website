@@ -49,9 +49,10 @@
   font-weight: bold;
   margin-top: 5px;
   font-size: 4vh;
+}
+.pointer{
   cursor: pointer;
 }
-
 .SubtitleSkills{
   font-size: 4vh;
 
