@@ -1,0 +1,26 @@
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background: #121212;
+    color: white;
+    padding: 20px;
+  }
+  
+  .footer-column {
+    flex: 1;
+    margin: 0 10px;
+  }
+
+  .Link{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+  }
+  .Link svg{
+    fill: white;
+  }
+.footer ul li{
+    list-style: none;
+
+}

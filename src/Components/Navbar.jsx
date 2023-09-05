@@ -27,7 +27,6 @@ function handleHamburger() {
             <ul >
             <Link className="link-style" to="/AboutMe">  <li>About Me</li></Link>
             <Link className="link-style" to="/Projects">  <li>Projects</li></Link>
-                <Link className="link-style" to="/contact"><li>Contact</li></Link>
             </ul>
             </div>
         </nav>
