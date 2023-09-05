@@ -4,7 +4,7 @@
   padding-top: 50px;
   overflow-x: hidden;
   background-size: cover;
-  overflow: hidden; 
+  overflow: hidden;
 
 }
 
@@ -50,8 +50,8 @@
   border-radius: 3vh;
   line-height: 1.6;
   font-size: 2.8vh;
-  background: url(https://firebasestorage.googleapis.com/v0/b/portfolio-dbischof.appspot.com/o/svg%2FtextboxBG.svg?alt=media&token=a121e849-7979-45b3-8f74-7edd4abeddcc) center no-repeat ;
-  background-size: 105%; 
+  background: url(https://firebasestorage.googleapis.com/v0/b/portfolio-dbischof.appspot.com/o/svg%2FtextboxBG.svg?alt=media&token=a121e849-7979-45b3-8f74-7edd4abeddcc) center no-repeat;
+  background-size: 105%;
   font-weight: 500;
 
   color: rgb(218, 218, 218);
@@ -61,10 +61,11 @@
     0px 5px 15px rgba(0, 0, 0, 0.3),
     0px 10px 20px rgba(0, 0, 0, 0.4);
 }
-#about{
-  background: url(https://firebasestorage.googleapis.com/v0/b/portfolio-dbischof.appspot.com/o/svg%2FaboutTextBg.svg?alt=media&token=5176dd3c-addb-4efd-8501-fd1efdcb4d2a) center no-repeat ;
+
+#about {
+  background: url(https://firebasestorage.googleapis.com/v0/b/portfolio-dbischof.appspot.com/o/svg%2FaboutTextBg.svg?alt=media&token=5176dd3c-addb-4efd-8501-fd1efdcb4d2a) center no-repeat;
   background-size: cover;
-  
+
   justify-self: end;
   margin-right: 3%;
   margin-top: 20px;
@@ -93,21 +94,25 @@
     0px 5px 15px rgba(0, 0, 0, 0.3),
     0px 10px 20px rgba(0, 0, 0, 0.4);
 }
+
 @media (max-width: 100px) {
-.another-image{
-  width: 10%;
+  .another-image {
+    width: 10%;
+  }
 }
-}
-.another-image{
+
+.another-image {
   justify-self: end;
   align-self: end;
   animation: fadeInSlideLeftToRight 1.5s ease-in-out;
 }
+
 @keyframes fadeInSlideLeftToRight {
   from {
     opacity: 0;
     transform: translateX(-10%);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -117,9 +122,10 @@
 
 @keyframes fadeInSlideRightToLeft {
   from {
-    opacity: 0; 
+    opacity: 0;
     transform: translateX(+10%);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -135,25 +141,27 @@
   padding-top: 3vh;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: auto auto ;
+  grid-template-rows: auto auto;
   gap: 1%;
   grid-row-gap: 3vh;
   background-color: #490c9f;
-
+  padding-bottom: 3vh;
 
 }
-.subtitle{
-  color: #ffffff; 
+
+.subtitle {
+  color: #ffffff;
   font-weight: bold;
   margin-top: 5px;
   font-size: 4vh;
 
 }
+
 .link {
   text-decoration: none;
 }
 
-.homeImages img{
+.homeImages img {
 
   width: 400px;
   height: auto;
@@ -169,34 +177,34 @@
 
 
 
-#ProjektText{
+#ProjektText {
   width: 300px;
   background-color: transparent;
   align-self: baseline;
-justify-self: center;
-
-}
-
-#ProjektBild{
   justify-self: center;
 
 }
 
-#AusbildungBild{
+#ProjektBild {
+  justify-self: center;
+
+}
+
+#AusbildungBild {
   justify-self: center;
 
 }
 
 
-#GalerieText{
-  align-self:baseline;
+#GalerieText {
+  align-self: baseline;
   width: 70%;
   justify-self: center;
   background-color: transparent;
 
 }
 
-#GalerieBild{
+#GalerieBild {
   justify-self: center;
 
 }
@@ -207,7 +215,12 @@ justify-self: center;
 .waveHome .shape-fill {
   fill: #121212;
 }
-.waveHome{
+
+.waveHome {
   background-color: #490c9f;
 
+}
+
+#homedivider {
+  background-color: #490c9f;
 }
