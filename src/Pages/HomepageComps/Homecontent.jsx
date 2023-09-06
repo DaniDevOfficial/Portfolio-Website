@@ -32,12 +32,10 @@ export default function Homecontent() {
             </div>
             
             <div className="textbox" id="GalerieText">
-            <Link to='/Galerie' className='link'>
-                <div className='subtitle'>Dive into My Visual Portfolio</div> 
+            <Link to='/aboutme' className='link'>
+                <div className='subtitle'>Learn a bit about me</div> 
             </Link>
-                Step into the world of visual storytelling through my gallery. From captivating images to thought-provoking snapshots, my gallery is a collection of moments frozen in time. Immerse yourself in the art of visual expression and explore the diverse range of images I've captured and curated.
-
-            </div>
+            Explore the fascinating world of who i realy am and gain a comprehensive understanding of my persona. Discover my hobbies, professional expertise, and collaborative abilities with teams and peers.            </div>
 
 
  

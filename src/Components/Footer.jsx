@@ -9,7 +9,7 @@ export function Footer() {
   return (
     <footer className="footer">
       <div className="footer-column">
-        <h3>Links</h3>
+        <h3 className='FooterSubtitle'>Links</h3>
         <div className="link-container">
           <a className="Link" href="https://github.com/David21092" target="_blank" rel="noopener noreferrer">
             <svg xmlns="http://www.w3.org/2000/svg" width={iconSize} height={iconSize} viewBox="0 0 24 24">

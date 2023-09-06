@@ -246,9 +246,10 @@
   .content-container {
     grid-template-columns: 100%; 
   }
-  #about { 
+  #about, .portrait, .another-image { 
     justify-self: center;  
   }
+
   .homeContent {
     grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
   }

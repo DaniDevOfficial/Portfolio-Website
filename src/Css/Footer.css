@@ -49,4 +49,7 @@
     flex-direction: row;
     justify-content: space-between;
   }
+  .FooterSubtitle{
+    text-align: center;
+  }
 }

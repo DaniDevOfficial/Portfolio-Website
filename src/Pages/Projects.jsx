@@ -49,7 +49,7 @@ export function Projects() {
                     </a>
                     <div className="ProjectText textbox textboxProjects">
                         <div className="subtitle">Wishlingo</div>
-                        This is a Language Learn App where you can Learn any given Language and try to fill in the missing word in a sentence. The App has a backend which means the User can login and create his own tasks and can so learn them. This Project was made for a Coding Contest. You can visit it <a className="fancyText" href="https://wishlingode.web.app/" target="_blank" rel="noopener noreferrer">Here</a> and can also check out the code in the <a className="fancyText" href="https://github.com/David21092/Wishlingo" target="_blank" rel="noopener noreferrer">Git Repository</a>.
+                        This is a Language Learn App where you can Learn any given Language and try to fill in the missing word in a sentence. The App has a backend which means the User can login and create his own tasks, so he can learn them. This Project was made for a Coding Contest. You can visit it <a className="fancyText" href="https://wishlingode.web.app/" target="_blank" rel="noopener noreferrer">Here</a> and can also check out the code in the <a className="fancyText" href="https://github.com/David21092/Wishlingo" target="_blank" rel="noopener noreferrer">Git Repository</a>.
                     </div>
                 </div>
 
@@ -65,7 +65,7 @@ export function Projects() {
                     </a>
                     <div className="ProjectText textbox textboxProjects">
                         <div className="subtitle">Natural Aquatics</div>
-                        This is a Multimedia Page for which the main Focus was using Unique Stylings like Parallax or using Photoshop to create and edit my own images and Display the differences betweet them. This was a Project in the Prog1 Module
+                        This is a Multimedia Page for which the main Focus was using Unique Stylings like Parallax or using Photoshop to create and edit my own images and Display the differences betweet them. This was a Project in the Prog1 Module.
                         You can visit it <a className="fancyText" href="https://backend-multimediapage.web.app/" target="_blank" rel="noopener noreferrer">Here</a> and can also check out the code in the <a className="fancyText" href="https://github.com/David21092/NaturalAquatics" target="_blank" rel="noopener noreferrer">Git Repository</a>.
                     </div>
                 </div>
@@ -84,7 +84,7 @@ export function Projects() {
                     </a>
                     <div className="ProjectText textbox textboxProjects">
                         <div className="subtitle">QuoteMate</div>
-                        This is a Site to calculate the coverage of the insurance in a case of Damages. The "Auftrag" was from the KBW to make a site where the user can calculate the coverage of House Damages. This was a Project in the Prog1 Module.
+                        This is a Site to calculate the coverage of the insurance in a case of Damages. The job from the KBW was to make a site where the user can calculate the coverage of House Damages. This was a Project in the Prog1 Module.
                         You can visit it <a className="fancyText" href="https://david21092.github.io/Versicherungsrechner-React/" target="_blank" rel="noopener noreferrer">Here</a> and can also check out the code in the <a className="fancyText" href="https://github.com/David21092/Versicherungsrechner-React/tree/master" target="_blank" rel="noopener  noreferrer">Git Repository</a>.
                     </div>
                 </div>
@@ -101,13 +101,13 @@ export function Projects() {
 
                     <div className='textbox textboxProjects' >
                         <div className="subtitle">Chat App</div>
-                        A Simple chat App with which the user can comunicate with others and can maybe VideoCall. Its a Project for the Module Prog2. Git currently not available
+                        A Simple chat App with which the User can comunicate with others and can maybe VideoCall his friends. Its a Project for the Module Prog2. Git currently not available
 
                     </div>
 
                     <div className='textbox textboxProjects'>
                         <div className="subtitle">Ukraine News Site</div>
-                        A News Site that has Multimedia features and is Interactive. It should display news About the War and infom people about the Backgrounds of the War Its a Project for the Subject PaW (Group Project). Git currently not available
+                        A News Site that has Multimedia features and is Interactive. It should display news About the War and infom people about the backgrounds of the War Its a Project for the Subject PaW (Group Project). Git currently not available
                     </div>
                 </div>
                 <div class="FutureProjectsDivider">
@@ -122,8 +122,8 @@ export function Projects() {
                     <div className='flex-container FutureProjects' >
                         <div className='textbox textboxProjects' >
 
-                            <div className="subtitle">Onlie shop</div>
-                           I would like to create a personal online shop to learn how the finace part of coing works and how the validation and check is handeled. 
+                            <div className="subtitle">Online shop</div>
+                           I would like to create a personal online shop to learn how the finance part of coding works and how the validation and actuall account are handeled. 
 
                         </div>
 

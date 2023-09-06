@@ -55,7 +55,7 @@
   cursor: pointer;
 }
 .SubtitleSkills{
-  font-size: 4vh;
+  font-size: 2rem;
   color: white;
 
 }
@@ -180,9 +180,15 @@
   margin: auto; 
   max-width: 800px; 
 }
-.PersonalImage{
-border-radius: 20px;
+.PersonalImage {
+  border-radius: 20px;
+  transition: transform 0.3s ease; 
 }
+
+.PersonalImage:hover {
+  transform: scale(1.05);
+}
+
 .Imagebelow{
   display: grid;
   grid-template-rows: auto auto;

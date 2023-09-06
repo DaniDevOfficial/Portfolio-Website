@@ -1,5 +1,7 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import '../Css/Contact.css';
 
 export default function Contact() {
@@ -12,19 +14,20 @@ export default function Contact() {
       .sendForm('service_x3u35js', 'template_x6fokdj', form.current, 'mhVsvImPiL6A9eM5F')
       .then(
         (result) => {
-          console.log(result.text);
+          console.log(result.text + "123");
+          toast.success('Email sent successfully'); 
           form.current.reset();
         },
         (error) => {
           console.log(error.text);
+          toast.error('Error sending email'); 
         }
       );
   };
 
   return (
-
     <form ref={form} onSubmit={sendEmail} className="form-container">
-      <h3>Contact</h3>
+      <h3 className='FooterSubtitle'>Contact</h3>
 
       <label className="label">Name</label>
       <input type="text" name="from_name" className="input-field" />
@@ -35,8 +38,8 @@ export default function Contact() {
       <label className="label">Message</label>
       <textarea name="message" className="input-field" />
       <input type="submit" value="Send" className="submit-button" />
+      <ToastContainer />
+
     </form>
-
-
   );
 }
