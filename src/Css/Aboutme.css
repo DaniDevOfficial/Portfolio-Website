@@ -55,6 +55,7 @@
 }
 .SubtitleSkills{
   font-size: 4vh;
+  color: white;
 
 }
 .horizontal-divider{
@@ -135,11 +136,13 @@
   margin-top: 2%;
   margin-bottom: 2%;
   text-align: center;
+  color: white;
 }
 
 .Quotes{
   text-align: center;
   font-size: 1.3rem;
+  
 
 }
 
@@ -148,6 +151,8 @@
   font-size: 1.3rem;
   margin-left: 20%;
   margin-right: 20%;
+  color: white;
+
 }
 
 
@@ -216,7 +221,7 @@
   margin-right: 10px;
   margin-left: 10px;
   margin-bottom: 20px;
-  color: rgb(209, 209, 209);
+  color: white;
 
 }
 
@@ -252,11 +257,13 @@
 }
 
 .wave2 {
-  position: absolute;
+  position: relative;
   left: 0;
+  top: 0;
   width: 100%;
   overflow: hidden;
   line-height: 0;
+  background-color: #393939;
 }
 
 .wave2 svg {
