@@ -19,7 +19,7 @@
   }
   
   .submit-button {
-    background-color: #007bff; /* Change to your preferred button color */
+    background-color: #007bff;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -28,8 +28,7 @@
   }
   
   .submit-button:hover {
-    background-color: #0056b3; /* Change to your preferred button hover color */
+    background-color: #0056b3; 
   }
   
-  /* Add more styling classes as needed */
   

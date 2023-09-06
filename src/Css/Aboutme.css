@@ -40,7 +40,8 @@
 .textbox {
   background: url(https://firebasestorage.googleapis.com/v0/b/portfolio-dbischof.appspot.com/o/svg%2FaboutTextBg.svg?alt=media&token=5176dd3c-addb-4efd-8501-fd1efdcb4d2a) center no-repeat;
   background-size: cover;
-  background-color: #302b2b;
+  animation: fadeInSlideRightToLeft 1.5s ease-in-out;
+
 }
 
 
@@ -142,6 +143,7 @@
 .Quotes{
   text-align: center;
   font-size: 1.3rem;
+  color: #818181;
   
 
 }

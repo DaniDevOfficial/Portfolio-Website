@@ -13,7 +13,6 @@ export default function Contact() {
       .then(
         (result) => {
           console.log(result.text);
-          // Clear the form fields after successful submission
           form.current.reset();
         },
         (error) => {
@@ -23,16 +22,21 @@ export default function Contact() {
   };
 
   return (
+
     <form ref={form} onSubmit={sendEmail} className="form-container">
+      <h3>Contact</h3>
+
       <label className="label">Name</label>
       <input type="text" name="from_name" className="input-field" />
       <label className="label">Email</label>
       <input type="email" name="email" className="input-field" />
-      <label  className="label" htmlFor="topic">Topic</label>
+      <label className="label" htmlFor="topic">Topic</label>
       <input type="text" name="topic" className="input-field" />
       <label className="label">Message</label>
       <textarea name="message" className="input-field" />
       <input type="submit" value="Send" className="submit-button" />
     </form>
+
+
   );
 }

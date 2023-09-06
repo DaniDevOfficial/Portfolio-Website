@@ -1,5 +1,5 @@
 .Title{
-
+    color: white;
     text-align: center;
     margin-top: 5vh;
     font-size: 3rem;
@@ -156,7 +156,6 @@
     fill: #121212;
 }
 
-/** For mobile devices **/
 @media (max-width: 767px) {
     .WaveWhislingoTop svg {
         width: calc(138% + 1.3px);

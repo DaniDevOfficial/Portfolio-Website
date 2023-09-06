@@ -44,7 +44,7 @@ export function Projects() {
             <div className="Content">
 
                 <div className="WishlingoPart">
-                    <a className="ProjectImage" href="https://github.com/David21092/Wishlingo" target="_blank" rel="noopener noreferrer">
+                    <a className="ProjectImage" href="https://wishlingode.web.app/" target="_blank" rel="noopener noreferrer">
                         <img src={Wishlingo} alt="" />
                     </a>
                     <div className="ProjectText textbox textboxProjects">
