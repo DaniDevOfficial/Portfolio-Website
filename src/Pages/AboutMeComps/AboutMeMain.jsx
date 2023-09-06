@@ -25,8 +25,7 @@ export default function AboutMeMain() {
                     <div id="PersonalPursuits" class="textbox">
                         <Link className="subtitle pointer" to="PersRef" spy={true} smooth={true} duration={1000} >Personal Pursuits</Link>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce euismod nulla ac libero consectetur, non fringilla massa hendrerit. Curabitur id dignissim
-                        </p>
+                        Let's explore how I spend my free time and the motivations behind my activities. This will help shed light on my interests and priorities.                        </p>
                     </div>
                 </div>
 

@@ -139,7 +139,6 @@
   text-align: center;
   color: white;
 }
-
 .Quotes{
   text-align: center;
   font-size: 1.3rem;
@@ -163,6 +162,11 @@
   background-color: #464646;
   padding-top: 40px;
 }
+
+.Professionalskills{
+  background-color: 100058;
+}
+
 .TeamSkills{
   padding-top: 40px;
   background-color: #393939;
@@ -176,12 +180,28 @@
   margin: auto; 
   max-width: 800px; 
 }
-
+.PersonalImage{
+border-radius: 20px;
+}
+.Imagebelow{
+  display: grid;
+  grid-template-rows: auto auto;
+}
+.fixedheight{
+  min-height: 70vh;
+  max-height: 80vh;
+}
 @media (max-width: 768px) {
   .SkillsContainer {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
     gap: 10px; 
     margin:  auto;
+  }
+  .PersonalImages{
+    width: 60vw;
+  }
+  .fixedheight{
+    height: auto;
   }
 }
 

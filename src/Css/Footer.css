@@ -24,10 +24,18 @@
   text-decoration: none;
 }
 
-.Link svg {
+.Link svg, img {
   fill: white;
 }
+.FooterLink{
+  width: 40px;
+  height: 24px;
 
+}
+.EmailLink{
+  width: 24px;
+  height: 20px;
+}
 @media (max-width: 768px) {
   .footer {
     flex-direction: column;

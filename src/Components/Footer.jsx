@@ -1,7 +1,8 @@
 import React from 'react';
 import '../Css/Footer.css';
 import Contact from './Contact';
-
+import ResumeDowload from '../Images/LinkIcons/ResumeDownload.png'
+import email from '../Images/LinkIcons/email.png'
 export function Footer() {
   const iconSize = "24";
 
@@ -21,7 +22,11 @@ export function Footer() {
             </svg>
           </a>
           <a className="Link" href="mailto:bischof.david.db@gmail.com">
-            Email
+          <img src={email} alt="email" className='EmailLink'/>
+
+          </a>
+          <a className='Link' href="/path-to-your-pdf-file.pdf" download="your-resume.pdf">
+          <img src={ResumeDowload} alt="resumeDonwload" className='FooterLink'/>
           </a>
         </div>
       </div>
