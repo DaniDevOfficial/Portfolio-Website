@@ -126,7 +126,7 @@ export default function MySkills() {
 
                 <div className="personal-text">
                     <h2>My Coding Journey</h2>
-                    <p>I discovered my love for coding thanks to my Grandfather's enthusiasm.</p>
+                    <p>I discovered my love for coding thanks to my grandfather's enthusiasm in IT.</p>
                     <p>My interest in technology deepened through my passion for gaming, where I delved into understanding its inner workings.</p>
                     <p>My coding adventure began at the age of about 15 when I first explored Python. I was immediately captivated by its creative potential.</p>
                     <p>Today, I'm a dedicated coder, continuously expanding my knowledge and pushing the boundaries of what's achievable.</p>

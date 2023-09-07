@@ -11,9 +11,7 @@ export default function AboutMeMain() {
         <>
             <div className='AboutContainer'>
                 <div class="AboutMainContainer">
-                    <div id="davidImage">
-                        <img src={DavidImage} alt='DavidImage' />
-                    </div>
+
                     <div id="professionalSkills" class="textbox">
                         <Link className="subtitle pointer" to="ProfRef" spy={true} smooth={true} duration={1000} >Professional Skills</Link>
                         <p>
