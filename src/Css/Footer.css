@@ -36,7 +36,6 @@
   width: 24px;
   height: 20px;
 }
-@media (max-width: 768px) {
   .footer {
     flex-direction: column;
   }
@@ -47,9 +46,10 @@
 
   .link-container {
     flex-direction: row;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
   }
   .FooterSubtitle{
     text-align: center;
   }
-}
+
