@@ -1,0 +1,55 @@
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background: #121212;
+  color: white;
+  padding: 20px;
+  font-size: 16px;
+}
+
+.footer-column {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.link-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; 
+}
+
+.Link {
+  color: white;
+  text-decoration: none;
+}
+
+.Link svg, img {
+  fill: white;
+}
+.FooterLink{
+  width: 40px;
+  height: 24px;
+
+}
+.EmailLink{
+  width: 24px;
+  height: 20px;
+}
+  .footer {
+    flex-direction: column;
+  }
+
+  .footer-column {
+    margin: 10px 0;
+  }
+
+  .link-container {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .FooterSubtitle{
+    text-align: center;
+  }
+

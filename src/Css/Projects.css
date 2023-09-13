@@ -1,0 +1,272 @@
+.Title{
+    color: white;
+    text-align: center;
+    margin-top: 5vh;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.MainPage-Project{
+    min-height: 90vh;
+}
+.fancyText{
+    transform: scale(1.05);
+    background-image: linear-gradient(to left, #9045A0, #B27FD7, #D4A8FF, #EAC9FF, #EAC9FF, #D4A8FF, #B27FD7, #9045A0);
+    background-size: 200% auto;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 4s linear infinite;
+}
+
+
+
+.textboxProjects {
+    margin-top: 5vh;
+    background: url(https://firebasestorage.googleapis.com/v0/b/portfolio-dbischof.appspot.com/o/svg%2FtextboxBG.svg?alt=media&token=a121e849-7979-45b3-8f74-7edd4abeddcc) center no-repeat ;
+    background-size: cover; 
+  }
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+  .flex-container .textboxProjects {
+    width: 300px; 
+    margin-left: 0;
+    margin-right: 0;
+  }
+  #WelcomeProjects{
+    width: 60vw;
+    margin: 0 auto;
+    margin-top: 5vh;
+  }
+  @media (max-width: 1200px) {
+    .flex-container .textboxProjects{
+        width: 400px; 
+    }
+
+    #WelcomeProjects{
+      width: 400px; 
+
+    }
+  }
+  @media (min-width: 2000px) {
+    .flex-container .textboxProjects{
+        width: 20vw; 
+    }
+  }
+@keyframes shine {
+    to {
+      background-position: 200% center;
+    }
+  }
+
+.ProjectText{
+  margin-top: 0vh;
+  width: 400px;
+
+}
+.ProjectImage img{
+  width: 50vw;
+  min-width: 300px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 10% solid #979797;
+  transition: transform 0.4s ease-in-out;
+
+
+}
+.ProjectImage img:hover {
+  transform: scale(1.05);
+
+}
+
+.WishlingoPart,
+.NaturalAquaticsPart,
+.QuotaMatePart{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;  
+  margin-top: 0vh;
+  padding-bottom: 5vh;
+  gap: 2% 2%;
+  padding-top: 3vh;
+}
+.WishlingoPart{
+  background-color: #9045A0;
+}
+.NaturalAquaticsPart{
+  background-color: #72359a;
+  
+}
+
+.QuotaMatePart{
+  background-color: #532494;
+}
+.CurrentlyWorkingOn{
+  background-color: #34148e;
+  padding-bottom: 10vh;
+    padding-bottom: 7vh;
+
+
+}
+
+.FutureProjects{
+  background-color: #150388;
+  padding-bottom: 10vh;
+}
+
+
+
+.subtitleProjects{
+  font-size: 40px;
+  text-align: center;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+  .WaveWhislingoTop {
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    margin-top: 50px;
+    background-color: #9045A0;
+}
+
+.WaveWhislingoTop svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.WaveWhislingoTop .shape-fill {
+    fill: #121212;
+}
+
+@media (max-width: 767px) {
+    .WaveWhislingoTop svg {
+        width: calc(138% + 1.3px);
+        height: 108px;
+    }
+}
+.WishlingoNaturalDivider {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  background-color: #72359a;
+
+}
+
+.WishlingoNaturalDivider svg {
+  position: relative;
+  display: block;
+  width: calc(138% + 1.3px);
+  height: 194px;
+}
+
+.WishlingoNaturalDivider .shape-fill {
+  fill: #9045A0;
+}
+
+
+.NaturalQuotaDivider {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  background-color: #532494;
+
+}
+
+.NaturalQuotaDivider svg {
+  position: relative;
+  display: block;
+  width: calc(138% + 1.3px);
+  height: 99px;
+}
+
+.NaturalQuotaDivider .shape-fill {
+  fill: #72359a;
+}
+.WorkingOnDivider {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  background-color: #34148e;
+  
+}
+.WorkingOnDivider svg {
+  position: relative;
+  display: block;
+  width: calc(178% + 1.3px);
+  height: 207px;
+}
+
+.WorkingOnDivider .shape-fill {
+  fill: #532494;
+}
+
+.FutureProjectsDivider {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  background-color: #150388;
+}
+
+.FutureProjectsDivider svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 178px;
+}
+
+.FutureProjectsDivider .shape-fill {
+  fill: #34148e;
+}
+
+.EndDivider {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+  background-color: #150388;
+
+}
+
+.EndDivider svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 56px;
+}
+
+.EndDivider .shape-fill {
+  fill: #121212;
+}
