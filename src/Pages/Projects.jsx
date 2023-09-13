@@ -101,7 +101,7 @@ export function Projects() {
 
                     <div className='textbox textboxProjects' >
                         <div className="subtitle">Chat App</div>
-                        A Simple chat App with which the User can comunicate with others and can maybe VideoCall his friends. Its a Project for the Module Prog2. Git currently not available
+                        A Simple chat App with which the User can comunicate with others and can maybe VideoCall his friends. Its a Project for the Module Prog2. The Code is in my <a className="fancyText" href="https://github.com/David21092/WishChat" target="_blank" rel="noopener  noreferrer">Git Repostitory</a> and you can find a Demo of it <a className="fancyText" href="https://wishchatprog2.web.app/" target="_blank" rel="noopener  noreferrer">here</a>. 
 
                     </div>
 

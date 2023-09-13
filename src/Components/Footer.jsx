@@ -26,7 +26,7 @@ export function Footer() {
           <img src={email} alt="email" className='EmailLink'/>
 
           </a>
-          <a className='Link' href="/static/media/DavidBischofCV.31081b4a43aa9f8a637c.pdf
+          <a className='Link' href="/static/media/DavidBischofCV.3e420460ae6a857096f7.pdf
 " download="DavidBischofCV.pdf">
           <img src={ResumeDowload} alt="resumeDonwload" className='FooterLink'/>
           </a>

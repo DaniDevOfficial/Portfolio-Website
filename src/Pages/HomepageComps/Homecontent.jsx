@@ -1,7 +1,7 @@
 // Pages and Comps
 import '../../Css/Homepage.css'
 import ProjektBild from '../../Images/ActualImages/ProjectsImage.jpg'
-import GalerieBild from '../../Images/TempGalerie.png'
+import AboutMeBild from '../../Images/ActualImages/AboutMeHomepage.png'
 
 
 
@@ -26,7 +26,7 @@ export default function Homecontent() {
 
             <div className="homeImages" id="GalerieBild">
                 <Link to='/AboutMe' className='link'>
-                    <img src={GalerieBild} alt='Galerie' />
+                    <img src={AboutMeBild} alt='Galerie' />
                 </Link>
             </div>
             

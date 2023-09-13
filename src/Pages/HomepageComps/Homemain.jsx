@@ -48,7 +48,7 @@ export default function Homemain() {
                     <img src={ProfilePic} alt='Portrait' />
                 </div>
                 <div className='another-image'>
-                    <img src={MainBild} alt='Another one' />
+                    <img src={MainBild} alt='A video Comming soon or not' />
                 </div>
                 <div className='textbox' id='about'>
                     <Link to='/AboutMe' className='link'><div className='subtitle'>A little about me</div> </Link>

@@ -30,13 +30,13 @@ export default function Contact() {
       <h3 className='FooterSubtitle'>Contact</h3>
 
       <label className="label">Name</label>
-      <input type="text" name="from_name" className="input-field" />
+      <input type="text" name="from_name" required="true" placeholder="John Doe" className="input-field" />
       <label className="label">Email</label>
-      <input type="email" name="email" className="input-field" />
+      <input type="email" name="email" required="true" placeholder="John@Doe.com"className="input-field" />
       <label className="label" htmlFor="topic">Topic</label>
-      <input type="text" name="topic" className="input-field" />
+      <input type="text" name="topic" required="true" placeholder="Colaboration"className="input-field" />
       <label className="label">Message</label>
-      <textarea name="message" className="input-field" />
+      <textarea name="message" required="true" placeholder="I would like to work with you ..." className="input-field" />
       <input type="submit" value="Send" className="submit-button" />
       <ToastContainer />
 

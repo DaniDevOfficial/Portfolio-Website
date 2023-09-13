@@ -69,7 +69,8 @@
   justify-self: end;
   margin-right: 3%;
   margin-top: 20px;
-  width: 300px;
+  width: 30vw;
+  min-width: 300px;
   animation: fadeInSlideRightToLeft 1.5s ease-in-out;
 
 }
@@ -167,8 +168,12 @@
     0px 0px 10px rgba(0, 0, 0, 0.2),
     0px 5px 15px rgba(0, 0, 0, 0.3),
     0px 10px 20px rgba(0, 0, 0, 0.4);
+    transition: transform 0.4s ease-in-out;
 }
 
+.homeImages img:hover{
+  transform: scale(1.05);
+}
 
 
 
@@ -234,9 +239,6 @@
   fill: #121212;
 }
 
-.waveHome {
-
-}
 
 #homedivider {
   background-color: #490c9f;
@@ -247,7 +249,8 @@
     grid-template-columns: 100%; 
   }
   #about, .portrait, .another-image { 
-    justify-self: center;  
+    justify-self: center; 
+    margin-bottom: 3vh;
   }
 
   .homeContent {
