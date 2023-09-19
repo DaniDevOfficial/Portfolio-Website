@@ -36,7 +36,7 @@ export default function Contact() {
       <label className="label" htmlFor="topic">Topic</label>
       <input type="text" name="topic" required="true" placeholder="Colaboration"className="input-field" />
       <label className="label">Message</label>
-      <textarea name="message" required="true" placeholder="I would like to work with you ..." className="input-field" />
+      <textarea name="message" required="true" placeholder="I would like to..." className="input-field" />
       <input type="submit" value="Send" className="submit-button" />
       <ToastContainer />
 

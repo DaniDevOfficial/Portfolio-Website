@@ -15,8 +15,7 @@ export default function Homecontent() {
             <div className='homeContent'>
             <div className="textbox" id='ProjektText'>
             <Link to='/Projects' className='link'><div className='subtitle'>Discover My different Projects</div> </Link>
-                Step into the realm of my web development journey. From sleek and responsive designs to seamless user experiences, my portfolio is a testament to the websites I've brought to life. Immerse yourself in the world of digital creativity and explore the diverse range of web projects I've crafted.
-            </div>
+            I'd like to share the projects I've worked on or am currently working on to provide an understanding of my coding skills. These projects may have been team collaborations or solo efforts, and they reflect my experience and abilities. These Projects range from simple calculators up to Fullstack application.            </div>
 
             <div className="homeImages" id="ProjektBild">
             <Link to='/Projects' className='link'>
@@ -34,7 +33,7 @@ export default function Homecontent() {
             <Link to='/aboutme' className='link'>
                 <div className='subtitle'>Learn a bit about me</div> 
             </Link>
-            Explore the fascinating world of who i realy am and gain a comprehensive understanding of my persona. Discover my hobbies, professional expertise, and collaborative abilities with teams and peers.            </div>
+            Discover more about me and get a good sense of who I am. Explore my hobbies, my professional expertise, and how well I work with teams and others. Let's take a closer look at what makes me actually me.            </div>
 
 
  
