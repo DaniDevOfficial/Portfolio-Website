@@ -6,6 +6,7 @@ import Aboutme from './AboutMe';
 import Navbar from '../Components/Navbar';
 import { Projects } from './Projects'; 
 import { Footer } from '../Components/Footer';
+import { PrivacyPolicy } from './PrivacyPolicy';
 
 export function WrapperPage() {
   const location = useLocation();
@@ -21,6 +22,7 @@ export function WrapperPage() {
         <Route path="/" element={<Homepage />} />
         <Route path="/AboutMe" element={<Aboutme />} />
         <Route path="/Projects" element={<Projects />} />
+        <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
       </Routes>
       <Footer />
     </div>
