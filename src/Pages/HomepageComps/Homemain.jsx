@@ -1,6 +1,6 @@
 // Pages and Comps
 import '../../Css/Homepage.css'
-import ProfilePic from '../../Images/ActualImages/1693415810614.jpg'
+import ProfilePic from '../../Images/ActualImages/RealPB.png'
 import MainBild from '../../Images/TempMainBild.png';
 
 // Libraries
