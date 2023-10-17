@@ -1,4 +1,4 @@
-FROM node:14 as builder
+FROM node:14 as bobTheBuilder
 
 WORKDIR /app
 
@@ -10,10 +10,8 @@ COPY . .
 
 RUN npm run build
 
-FROM nginx:alpine
+FROM nginxinc/nginx-unprivileged
 
-COPY --from=builder /app/build /usr/share/nginx/html
+COPY --from=bobTheBuilder /app/build /usr/share/nginx/html
 
-EXPOSE 80
-
-CMD ["nginx", "-g", "daemon off;"]
+EXPOSE 8080
