@@ -1,25 +1,20 @@
 import React from "react"
 import Wishchat from '../../Images/ActualImages/WishchatWithBackground.png'
+import "../../Css/Documentation.css"
 export function WishChatDocumentation() {
 
     return (
-        <>
-            <div className="DocumentationContainer">
-                <div className="DocumentationWrapper">
-
+                <div className="CenterContent"> {/* Added a new class for centering content */}
                     <div className="Title">WishChat</div>
-                    <img src={Wishchat} alt="wasd" />
-                    <div className="LinksAndAuthorContainer">
-                        <div className="Author">
-                            Created by: David Bischof
-                        </div>  
-                        <div className="Links">
+                    <img className="LogoDocumentation" src={Wishchat} alt="wasd" />
 
-                        </div>
+
+                    <div className="ShortDescription">
+                    <div className="Author">
+                        Created by: David Bischof
                     </div>
-                    
+                    </div>
                 </div>
-            </div>
-        </>
-    )
+
+    );
 }
