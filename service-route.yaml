@@ -1,0 +1,34 @@
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: portfolio
+  name: portfolio-service
+spec:
+  ports:
+    - name: 8080-tcp
+      port: 8080
+      protocol: TCP
+      targetPort: 8080
+  selector:
+    app: portfolio
+  sessionAffinity: None
+  type: ClusterIP
+
+---
+
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  labels:
+    app: portfolio
+  name: portfolio-route
+spec:
+  port:
+    targetPort: 8080-tcp
+  to:
+    kind: Service
+    name: portfolio-service
+  tls:
+    termination: edge
+    insecureEdgeTerminationPolicy: Redirect

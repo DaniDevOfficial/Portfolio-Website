@@ -1,6 +1,6 @@
 // Pages and Comps
 import '../../Css/Homepage.css'
-import ProfilePic from '../../Images/ActualImages/1693415810614.jpg'
+import ProfilePic from '../../Images/ActualImages/RealPB.png'
 import MainBild from '../../Images/TempMainBild.png';
 
 // Libraries
@@ -55,7 +55,7 @@ export default function Homemain() {
                     <p>
                         Hey there! My name is David, and I'm a passionate  developer. I have a strong foundation in React and JavaScript and enjoy building beautiful and interactive websites.
                         <br /><br />
-                        Feel free to explore my portfolio and <a className="fancyText" href="mailto:bischof.david.db@gmail.com" target="_blank" rel="noopener noreferrer">get in touch</a> if you'd like to collaborate or discuss exciting projects!
+                        Feel free to explore my portfolio and <a className="fancyText" href="mailto:bischof.david.db@gmail.com" target="_blank" rel="noopener noreferrer">reach out</a> if you're interested in collaborating with me. Let's create together!
                     </p>
                 </div>
 

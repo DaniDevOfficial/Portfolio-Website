@@ -156,11 +156,13 @@
 
 .link {
   text-decoration: none;
+  
 }
 
 .homeImages img {
 
   width: 400px;
+  min-width: 35vw;
   height: auto;
   border-radius: 15px;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
