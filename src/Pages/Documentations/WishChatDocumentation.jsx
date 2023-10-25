@@ -1,5 +1,6 @@
 import React from "react"
 import Wishchat from '../../Images/ActualImages/WishchatWithBackground.png'
+import { FaGithub, FaLink } from 'react-icons/fa';
 import WishChatSketch from '../../Images/ActualImages/WishChatSketch.png'
 import "../../Css/Documentation.css"
 export function WishChatDocumentation() {
@@ -12,9 +13,23 @@ export function WishChatDocumentation() {
 
 
                 <div className="ShortDescription">
-                    <div className="Author">
-                        Created by: David Bischof
+                    <div className="LeftSection">
+                        <div className="Author">
+                            Created by: David Bischof
+                        </div>
+                        <div className="ReleaseDate">
+                            Release Date: Soon
+                        </div>
                     </div>
+                    <div className="RightSection">
+                        <div className="GitHubLink">
+                            <a href="https://github.com/David21092/WishChat" target="_blank" className="LinkIcon"><FaGithub className="Icon" /> </a>
+                        </div>
+                        <div className="HostedSiteLink">
+                            <a FaGithuba href="https://wishchatprog2.web.app/" target="_blank" className="LinkIcon"><FaLink className="Icon" /> </a>
+                        </div>
+                    </div>
+
                 </div>
             </div>
             <div className="DescriptionAndWhyContainer">
@@ -23,14 +38,15 @@ export function WishChatDocumentation() {
                         Description
                     </div>
                     <div className="Text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste vero saepe tempore recusandae adipisci delectus aperiam? Veniam aliquid praesentium saepe, sequi, consequuntur quidem nam nesciunt voluptatem sapiente rem blanditiis nisi!
+                        WishChat is a messaging app that allows you to send text messages and images to others. It uses Firebase for storage and hosting, ensuring your messages and images are safely stored and easily accessible. With WishChat, you can have real-time conversations with your friends and family, making it a convenient and reliable way to stay connected.
                     </div>
                 </div>
             </div>
             <div className="PlaningAndIdea">
-                <div className="Idea">                <div className="Subtitle">
-                    Idea
-                </div>
+                <div className="Idea">
+                    <div className="Subtitle">
+                        Idea
+                    </div>
                     <div className="Text">
                         <img src={WishChatSketch} alt="Image" className="ImageInText" />
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nam fuga placeat maiores cupiditate quis sunt mollitia soluta culpa repellat beatae cum, odio blanditiis! Maiores perspiciatis non beatae nulla cumque odio laboriosam qui saepe aperiam, sunt quibusdam delectus minus. A maiores, molestias voluptates molestiae quod, aut odio, ad voluptas obcaecati pariatur aliquam reprehenderit libero culpa enim. Placeat ratione laudantium repellendus earum accusantium illo aspernatur mollitia iure ex quia perferendis natus voluptatum, quidem quisquam error expedita illum animi, iste distinctio eius? Officia eos sunt illum quam sit porro quae incidunt possimus, error ab quis, a quasi aspernatur maxime eius facere voluptas?

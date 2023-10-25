@@ -1,7 +1,6 @@
 :root {
     --SideMargins: 25vw;
     --LogoWidth: calc(2 * var(--SideMargins));
-    /* Double the width of LogoDocumentation */
 
 }
 
@@ -22,10 +21,34 @@
 }
 
 .ShortDescription {
-    font-size: small;
+    margin-top: 5px ;
+    font-size: 0.9rem;
     color: rgb(163, 163, 163);
 }
+.LeftSection {
+    display: flex;
+    float: left;
+    gap: 10px;
+    width: 70%; 
+}
 
+.RightSection {
+
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    float: right; 
+    width: 20%; 
+    text-align: right;
+}
+
+.LinkIcon{
+    color: inherit;    
+}
+.LinkIcon:hover
+{
+    color: white;    
+}
 .Subtitle {
     font-size: 2rem;
     color: white;
