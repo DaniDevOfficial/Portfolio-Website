@@ -23,7 +23,7 @@ export function WishChatDocumentation() {
                     </div>
                     <div className="RightSection">
                         <div className="GitHubLink">
-                            <a href="https://github.com/David21092/WishChat" target="_blank" className="LinkIcon"><FaGithub className="Icon" /> </a>
+                            <a href="https://github.com/DaniDevOfficial/WishChat" target="_blank" className="LinkIcon"><FaGithub className="Icon" /> </a>
                         </div>
                         <div className="HostedSiteLink">
                             <a FaGithuba href="https://wishchatprog2.web.app/" target="_blank" className="LinkIcon"><FaLink className="Icon" /> </a>

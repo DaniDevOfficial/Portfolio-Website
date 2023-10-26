@@ -17,7 +17,7 @@ export function Projects() {
                 <div className='textbox textboxProjects' id='WelcomeProjects'>
                     Here, you'll discover a selection of my projects from my time at IMS and my personal projects.
 
-                    I'm a passionate developer, dedicated to crafting innovative solutions. Explore these projects to get a glimpse of my skills and creativity. For more, check out my <a className="fancyText" href="https://github.com/David21092" target="_blank" rel="noopener noreferrer">GitHub</a> profile.
+                    I'm a passionate developer, dedicated to crafting innovative solutions. Explore these projects to get a glimpse of my skills and creativity. For more, check out my <a className="fancyText" href="https://github.com/DaniDevOfficial" target="_blank" rel="noopener noreferrer">GitHub</a> profile.
 
                     Thanks for visiting!
                 </div>
@@ -50,7 +50,7 @@ export function Projects() {
                     </a>
                     <div className="ProjectText textbox textboxProjects">
                         <div className="subtitle">Wishlingo</div>
-                        This is a Language Learn App where you can Learn any given Language and try to fill in the missing word in a sentence. The App has a backend which means the User can login and create his own tasks, so he can learn them. This Project was made for a Coding Contest. You can visit it <a className="fancyText" href="https://wishlingode.web.app/" target="_blank" rel="noopener noreferrer">Here</a> and can also check out the code in the <a className="fancyText" href="https://github.com/David21092/Wishlingo" target="_blank" rel="noopener noreferrer">Git Repository</a>.
+                        This is a Language Learn App where you can Learn any given Language and try to fill in the missing word in a sentence. The App has a backend which means the User can login and create his own tasks, so he can learn them. This Project was made for a Coding Contest. You can visit it <a className="fancyText" href="https://wishlingode.web.app/" target="_blank" rel="noopener noreferrer">Here</a> and can also check out the code in the <a className="fancyText" href="https://github.com/DaniDevOfficial/Wishlingo" target="_blank" rel="noopener noreferrer">Git Repository</a>.
                     </div>
                 </div>
 
@@ -67,7 +67,7 @@ export function Projects() {
                     <div className="ProjectText textbox textboxProjects">
                         <div className="subtitle">Natural Aquatics</div>
                         This is a Multimedia Page for which the main Focus was using Unique Stylings like Parallax or using Photoshop to create and edit my own images and Display the differences betweet them. This was a Project in the Prog1 Module.
-                        You can visit it <a className="fancyText" href="https://backend-multimediapage.web.app/" target="_blank" rel="noopener noreferrer">Here</a> and can also check out the code in the <a className="fancyText" href="https://github.com/David21092/NaturalAquatics" target="_blank" rel="noopener noreferrer">Git Repository</a>.
+                        You can visit it <a className="fancyText" href="https://backend-multimediapage.web.app/" target="_blank" rel="noopener noreferrer">Here</a> and can also check out the code in the <a className="fancyText" href="https://github.com/DaniDevOfficial/NaturalAquatics" target="_blank" rel="noopener noreferrer">Git Repository</a>.
                     </div>
                 </div>
 
@@ -80,13 +80,13 @@ export function Projects() {
                 </div>
 
                 <div className='QuotaMatePart'>
-                    <a className="ProjectImage" href="https://david21092.github.io/Versicherungsrechner-React/" target="_blank" rel="noopener noreferrer">
+                    <a className="ProjectImage" href="https://DaniDevOfficial.github.io/Versicherungsrechner-React/" target="_blank" rel="noopener noreferrer">
                         <img src={QuoteMate} alt="" />
                     </a>
                     <div className="ProjectText textbox textboxProjects">
                         <div className="subtitle">QuoteMate</div>
                         This is a Site to calculate the coverage of the insurance in a case of Damages. The job from the KBW was to make a site where the user can calculate the coverage of House Damages. This was a Project in the Prog1 Module.
-                        You can visit it <a className="fancyText" href="https://david21092.github.io/Versicherungsrechner-React/" target="_blank" rel="noopener noreferrer">Here</a> and can also check out the code in the <a className="fancyText" href="https://github.com/David21092/Versicherungsrechner-React/tree/master" target="_blank" rel="noopener  noreferrer">Git Repository</a>.
+                        You can visit it <a className="fancyText" href="https://DaniDevOfficial.github.io/Versicherungsrechner-React/" target="_blank" rel="noopener noreferrer">Here</a> and can also check out the code in the <a className="fancyText" href="https://github.com/DaniDevOfficial/Versicherungsrechner-React/tree/master" target="_blank" rel="noopener  noreferrer">Git Repository</a>.
                     </div>
                 </div>
                 <div class="WorkingOnDivider">
@@ -102,7 +102,7 @@ export function Projects() {
 
                     <div className='textbox textboxProjects' >
                         <div className="subtitle">Chat App</div>
-                        A Simple chat App with which the User can comunicate with others and can maybe VideoCall his friends. Its a Project for the Module Prog2. The Code is in my <a className="fancyText" href="https://github.com/David21092/WishChat" target="_blank" rel="noopener  noreferrer">Git Repostitory</a> and you can find a Demo of it <a className="fancyText" href="https://wishchatprog2.web.app/" target="_blank" rel="noopener  noreferrer">here</a>. 
+                        A Simple chat App with which the User can comunicate with others and can maybe VideoCall his friends. Its a Project for the Module Prog2. The Code is in my <a className="fancyText" href="https://github.com/DaniDevOfficial/WishChat" target="_blank" rel="noopener  noreferrer">Git Repostitory</a> and you can find a Demo of it <a className="fancyText" href="https://wishchatprog2.web.app/" target="_blank" rel="noopener  noreferrer">here</a>. 
                         <RouteLink to="Wishchat">Documentation</RouteLink>
                     </div>
 

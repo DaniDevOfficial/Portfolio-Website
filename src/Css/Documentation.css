@@ -1,9 +1,14 @@
 :root {
     --SideMargins: 25vw;
-    --LogoWidth: calc(2 * var(--SideMargins));
+    --LogoWidth: 50vw;
 
 }
-
+@media (max-width: 768px) {
+    :root {
+        --SideMargins: 10vw;
+        --LogoWidth: 80vw;
+    }
+}
 .CenterContent {
     display: flex;
     flex-direction: column;
