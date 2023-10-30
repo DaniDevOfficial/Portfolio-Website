@@ -14,8 +14,10 @@ export function WishChatDocumentation() {
 
                 <div className="ShortDescription">
                     <div className="LeftSection">
+
                         <div className="Author">
-                            Created by: David Bischof
+                            Created by: <a href="https://github.com/DaniDevOfficial" target="_blank" className="LinkIcon">David Bischof </a>
+
                         </div>
                         <div className="ReleaseDate">
                             Release Date: Soon
@@ -57,7 +59,20 @@ export function WishChatDocumentation() {
                         Planing and Development
                     </div>
                     <div className="Text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nam fuga placeat maiores cupiditate quis sunt mollitia soluta culpa repellat beatae cum, odio blanditiis! Maiores perspiciatis non beatae nulla cumque odio laboriosam qui saepe aperiam, sunt quibusdam delectus minus. A maiores, molestias voluptates molestiae quod, aut odio, ad voluptas obcaecati pariatur aliquam reprehenderit libero culpa enim. Placeat ratione laudantium repellendus earum accusantium illo aspernatur mollitia iure ex quia perferendis natus voluptatum, quidem quisquam error expedita illum animi, iste distinctio eius? Officia eos sunt illum quam sit porro quae incidunt possimus, error ab quis, a quasi aspernatur maxime eius facere voluptas?
+                        <div className="Paragraph">
+                        I started on the development of WishChat due to a task in school of creating a simple messaging application, working on it solo. I began by setting up the foundation using Firebase for data storage and real-time messaging. This initial phase was essential for building a dynamic platform for seamless user interaction.
+                        </div>
+                        <div className="Paragraph">
+                        As the project progressed, I wanted to switch from the firebase given backend to something i created myself. Following that, I decided to transition to an Express.js backend, allowing me to have more control over server connections and data handling.
+
+                        </div>
+                        <div className="Paragraph">
+                        During the development journey, I found myself constantly switching  between two key aspects of the project: the app's visual design and its functionality. This approach enabled me to maintain a good balance between creating an appealing and user-friendly interface and ensuring the app worked correctly.
+
+                        </div>
+                        <div className="Paragraph">
+                        Developing WishChat has been a leghty process, where I adapted to changing requirements and developed new features as needed. This solo project has been an exciting, using different technologies together with a creative GUI-design for a real-time messaging app.
+                        </div>
                     </div>
                 </div>
             </div>

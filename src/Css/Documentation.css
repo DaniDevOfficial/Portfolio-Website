@@ -24,6 +24,10 @@
     margin-top: 30px;
     width: var(--LogoWidth);
 }
+.Paragraph{
+    margin: 20px 0;
+    line-height: 1.5rem;
+}
 
 .ShortDescription {
     margin-top: 5px ;
