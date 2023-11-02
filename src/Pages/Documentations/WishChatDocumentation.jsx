@@ -51,7 +51,22 @@ export function WishChatDocumentation() {
                     </div>
                     <div className="Text">
                         <img src={WishChatSketch} alt="Image" className="ImageInText" />
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nam fuga placeat maiores cupiditate quis sunt mollitia soluta culpa repellat beatae cum, odio blanditiis! Maiores perspiciatis non beatae nulla cumque odio laboriosam qui saepe aperiam, sunt quibusdam delectus minus. A maiores, molestias voluptates molestiae quod, aut odio, ad voluptas obcaecati pariatur aliquam reprehenderit libero culpa enim. Placeat ratione laudantium repellendus earum accusantium illo aspernatur mollitia iure ex quia perferendis natus voluptatum, quidem quisquam error expedita illum animi, iste distinctio eius? Officia eos sunt illum quam sit porro quae incidunt possimus, error ab quis, a quasi aspernatur maxime eius facere voluptas?
+                        <div className="Paragraph">
+
+                            The main idea behind WishChat was to create a chat app that allows users to send not only text messages but also images and possibly audio messages, making communication more versatile and expressive.
+                        </div>
+                        <div className="Paragraph">
+
+                            Initially, I planned to use Firebase as the backend to handle real-time messaging and data storage. However, due to the given requirements changed it to use a custom backend using Express.js.
+                        </div>
+                        <div className="Paragraph">
+                            I wanted the visual part to look like a familiar Layout, so i chose to look at other Chat App and get inspired by their GUI and UX aproaches.
+                        </div>
+                        <div className="Paragraph">
+
+                            This approach aimed to provide a foundation for a dynamic chat platform that could support various media types and ensure smooth user interactions.
+
+                        </div>
                     </div>
                 </div>
                 <div className="Planing">
@@ -60,18 +75,18 @@ export function WishChatDocumentation() {
                     </div>
                     <div className="Text">
                         <div className="Paragraph">
-                        I started on the development of WishChat due to a task in school of creating a simple messaging application, working on it solo. I began by setting up the foundation using Firebase for data storage and real-time messaging. This initial phase was essential for building a dynamic platform for seamless user interaction.
+                            I started on the development of WishChat due to a task in school of creating a simple messaging application, working on it solo. I began by setting up the foundation using Firebase for data storage and real-time messaging. This initial phase was essential for building a dynamic platform for seamless user interaction.
                         </div>
                         <div className="Paragraph">
-                        As the project progressed, I wanted to switch from the firebase given backend to something i created myself. Following that, I decided to transition to an Express.js backend, allowing me to have more control over server connections and data handling.
+                            As the project progressed, I wanted to switch from the firebase given backend to something i created myself. Following that, I decided to transition to an Express.js backend, allowing me to have more control over server connections and data handling.
 
                         </div>
                         <div className="Paragraph">
-                        During the development journey, I found myself constantly switching  between two key aspects of the project: the app's visual design and its functionality. This approach enabled me to maintain a good balance between creating an appealing and user-friendly interface and ensuring the app worked correctly.
+                            During the development journey, I found myself constantly switching  between two key aspects of the project: the app's visual design and its functionality. This approach enabled me to maintain a good balance between creating an appealing and user-friendly interface and ensuring the app worked correctly.
 
                         </div>
                         <div className="Paragraph">
-                        Developing WishChat has been a leghty process, where I adapted to changing requirements and developed new features as needed. This solo project has been an exciting, using different technologies together with a creative GUI-design for a real-time messaging app.
+                            Developing WishChat has been a leghty process, where I adapted to changing requirements and developed new features as needed. This solo project has been an exciting, using different technologies together with a creative GUI-design for a real-time messaging app.
                         </div>
                     </div>
                 </div>
