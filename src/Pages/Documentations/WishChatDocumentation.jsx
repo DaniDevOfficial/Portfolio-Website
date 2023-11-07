@@ -60,31 +60,40 @@ export function WishChatDocumentation() {
                     </div>
                     <div className="Text">
                         <div className="Paragraph">
-                        I started on the development of WishChat due to a task in school of creating a simple messaging application, working on it solo. I began by setting up the foundation using Firebase for data storage and real-time messaging. This initial phase was essential for building a dynamic platform for seamless user interaction.
+                            I started on the development of WishChat due to a task in school of creating a simple messaging application, working on it solo. I began by setting up the foundation using Firebase for data storage and real-time messaging. This initial phase was essential for building a dynamic platform for seamless user interaction.
                         </div>
                         <div className="Paragraph">
-                        As the project progressed, I wanted to switch from the firebase given backend to something i created myself. Following that, I decided to transition to an Express.js backend, allowing me to have more control over server connections and data handling.
+                            As the project progressed, I wanted to switch from the firebase given backend to something i created myself. Following that, I decided to transition to an Express.js backend, allowing me to have more control over server connections and data handling.
 
                         </div>
                         <div className="Paragraph">
-                        During the development journey, I found myself constantly switching  between two key aspects of the project: the app's visual design and its functionality. This approach enabled me to maintain a good balance between creating an appealing and user-friendly interface and ensuring the app worked correctly.
+                            During the development journey, I found myself constantly switching  between two key aspects of the project: the app's visual design and its functionality. This approach enabled me to maintain a good balance between creating an appealing and user-friendly interface and ensuring the app worked correctly.
 
                         </div>
                         <div className="Paragraph">
-                        Developing WishChat has been a leghty process, where I adapted to changing requirements and developed new features as needed. This solo project has been an exciting, using different technologies together with a creative GUI-design for a real-time messaging app.
+                            Developing WishChat has been a leghty process, where I adapted to changing requirements and developed new features as needed. This solo project has been an exciting, using different technologies together with a creative GUI-design for a real-time messaging app.
                         </div>
                     </div>
                 </div>
             </div>
             <div className="LearntAndTechStack">
-                <div className="Leant">
+                <div className="Learned">
                     <div className="Subtitle">
-                        What I learnt
+                        What I Learned
                     </div>
                     <div className="Text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nam fuga placeat maiores cupiditate quis sunt mollitia soluta culpa repellat beatae cum, odio blanditiis! Maiores perspiciatis non beatae nulla cumque odio laboriosam qui saepe aperiam, sunt quibusdam delectus minus. A maiores, molestias voluptates molestiae quod, aut odio, ad voluptas obcaecati pariatur aliquam reprehenderit libero culpa enim. Placeat ratione laudantium repellendus earum accusantium illo aspernatur mollitia iure ex quia perferendis natus voluptatum, quidem quisquam error expedita illum animi, iste distinctio eius? Officia eos sunt illum quam sit porro quae incidunt possimus, error ab quis, a quasi aspernatur maxime eius facere voluptas?
+                        <div className="Paragraph">
+                            During the development of WishChat, I learned a lot of new thigns. I fist experimented with the usage of Firebase and the smart utalisation of JSON objects for clean data storage of messages. This experience taught me how to create a responsive and real-time messaging system, enhancing my understanding of Firebase's capabilities and where else it could be used.
+                        </div>
+                        <div className="Paragraph">
+                            In addition, I leaned more about Express.js and its usefull API features. I discovered how to use Express.js to improve my ability to create a custom backend and manage server connections. This transition also led me to learn about Socket.io which enables real-time communication and data synchronization between the backend and the frontend.
+                        </div>
+                        <div className="Paragraph">
+                            All in all, WishChat provided a important learning experience, helping to understand Firebase, JSON data storage, Express.js, and Socket.io, way better which are all important tools for creating realtime Apps in the Web. But the most i leaned about Express.js because i never really was interested in it before and i was kinda forced  in this project to learn it.
+                        </div>
                     </div>
                 </div>
+
                 <div className="TechStack">
                     <div className="Subtitle">
                         TechStack
