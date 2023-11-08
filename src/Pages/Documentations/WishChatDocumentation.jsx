@@ -114,7 +114,21 @@ export function WishChatDocumentation() {
                         TechStack
                     </div>
                     <div className="Text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem id ullam ex temporibus qui fuga perferendis esse, eligendi reiciendis. Ullam, ad? Similique quas nemo vel animi laudantium, non numquam vero cumque rem aliquid neque doloremque consequatur dolores eligendi? Quidem nihil aliquid, aliquam illo harum sunt incidunt voluptatem quae esse. Dolore similique, ab error autem ut a tempore itaque. Excepturi, molestias culpa? Blanditiis, error exercitationem! Vel ullam tenetur optio! Nam neque maiores nostrum veritatis asperiores. Sit doloremque ad facere similique cumque, quasi incidunt rerum tenetur, repellat, voluptatibus vel? Laboriosam ipsa voluptatem recusandae distinctio, harum quas nemo nesciunt, iste explicabo et in!
+                        <div className="Paragraph">
+                           For the creation of Wishchat i used different technologies for the frontend backend and data storage.
+                        </div>
+                        <ul>
+                            <li>
+                                Firebase: I used firebase to store my data in a real time database. Its a efficient and fast storage which also would alow me to add more features form the Firebase tools.
+                            </li>
+                            <li>
+                                React: React was used to build the frontend and allow the different animations there. I kinda also used it to handle the data and have different chats.
+                            </li>
+                            <li>
+                                Express.js: So i could move from the firebase api access to a self made one i created a Express.js file with Socket.io so the realtime Connecton for the Chat is still existant.
+                            </li>
+                        </ul>
+                        I also used a lot of different tools like React-Router and many other react libraries.  
                     </div>
                 </div>
             </div>
