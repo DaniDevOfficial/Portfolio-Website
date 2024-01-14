@@ -23,12 +23,12 @@ export function Footer() {
             </svg>
           </a>
           <a className="Link" href="mailto:bischof.david.db@gmail.com">
-          <img src={email} alt="email" className='EmailLink'/>
+            <img src={email} alt="email" className='EmailLink' />
 
           </a>
           <a className='Link' href="/static/media/DavidBischofCV.3e420460ae6a857096f7.pdf
 " download="DavidBischofCV.pdf">
-          <img src={ResumeDowload} alt="resumeDonwload" className='FooterLink'/>
+            <img src={ResumeDowload} alt="resumeDonwload" className='FooterLink' />
           </a>
         </div>
       </div>

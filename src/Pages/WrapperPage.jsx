@@ -8,7 +8,7 @@ import { Projects } from './Projects';
 import { Footer } from '../Components/Footer';
 import { PrivacyPolicy } from './PrivacyPolicy';
 import { WishChatDocumentation } from './Documentations/WishChatDocumentation';
-
+import { ApiTest } from './ApiTest';
 export function WrapperPage() {
   const location = useLocation();
 
@@ -26,6 +26,8 @@ export function WrapperPage() {
         <Route path="/Projects/Wishchat" element={<WishChatDocumentation />} />
         <Route path="/Projects" element={<Projects />} />
         <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
+        <Route path="/apiTest" element={<ApiTest />} />
+        <Route path="*" element={<Homepage />} />
       </Routes>
       <Footer />
     </div>
