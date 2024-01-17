@@ -19,9 +19,8 @@ export function ApiTest() {
 
   return (
     <div>
-      <h1>This only worsk on hhtps//david-bischof.ch and only when the WishAPI is running on localhost:3000</h1>
-      {data && <p>{data}</p>}
+      <h1 style={{ color: 'white' }}>This only works on https://david-bischof.ch and only when the WishAPI is running on localhost:3000</h1>
+      {data && <p style={{ color: 'white' }}>{data}</p>}
     </div>
   );
 };
-
